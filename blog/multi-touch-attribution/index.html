@@ -1,0 +1,549 @@
+<!DOCTYPE html><html lang="en-US"><head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="profile" href="http://gmpg.org/xfn/11"/>
+	<link rel="pingback" href="../../xmlrpc.php"/>
+    <!--<link href="https://fonts.cdnfonts.com/css/cerebri-sans" rel="stylesheet">-->
+    <meta property="og:image" content="https://trueprofit.io/wp-content/uploads/2022/05/thumbnail-trueprofit.jpg"/>
+    <meta name="google-site-verification" content="1mB66ER9xbci7sX1ZHH6KUhDOycdSaji00OesVb1akg"/>
+	<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": {
+                "@type": "SoftwareApplication",
+                "name": "TrueProfit",
+                "description": "Profit Analytics Platform for Shopify and Amazon Businesses",
+                "operatingSystem": "Shopify",
+                "applicationCategory": "BusinessApplication",
+                "offers": { 
+                    "@type": "Offer",
+                    "price": "19.95",
+                    "priceCurrency": "USD",
+                    "availability": "InStock"
+                },
+                "review": {
+                    "@type": "Review",
+                    "datePublished": "%date(Y-m-dTH:i:sP)%",
+                    "dateModified": "%modified(Y-m-dTH:i:sP)%"
+        
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5",
+                        "worstRating": "1",
+                        "bestRating": "5"
+                    }
+                },
+                "image": {
+                    "@type": "ImageObject",
+                    "url": "%post_thumbnail%"
+                }
+            }
+        }
+
+    </script>
+
+
+	<title>Multi-Touch Attribution and Models: A Complete Guide [2023 Edition] – TrueProfit</title>
+<meta name="robots" content="max-image-preview:large"/>
+<link rel="amphtml" href="amp"/><meta name="generator" content="AMP for WP 1.0.90"/><link rel="dns-prefetch" href="//www.google.com"/>
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net"/>
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com"/>
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="wpo_min-header-0-css" href="../../wp-content/cache/wpo-minify/1708485366/assets/wpo-minify-header-32f52ef2.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="bootstrap-css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="wpo_min-header-2-css" href="../../wp-content/cache/wpo-minify/1708485366/assets/wpo-minify-header-5ef8170a.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="slick-css-css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="wpo_min-header-4-css" href="../../wp-content/cache/wpo-minify/1708485366/assets/wpo-minify-header-7f4a1a43.min.css" type="text/css" media="all"/>
+<script type="text/javascript" id="wpo_min-header-0-js-extra">
+/* <![CDATA[ */
+var agrRecaptcha = {"site_key":"6Lf0juMfAAAAAMwr3ewsnN6b6n6WnUwkl-MM_H85"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../../wp-content/cache/wpo-minify/1708485366/assets/wpo-minify-header-1b680da4.min.js" id="wpo_min-header-0-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=agrV3&amp;render=6Lf0juMfAAAAAMwr3ewsnN6b6n6WnUwkl-MM_H85&amp;ver=1.0.15" id="advanced-google-recaptcha-api-js"></script>
+<script type="text/javascript" src="../../wp-content/cache/wpo-minify/1708485366/assets/wpo-minify-header-f53e0c17.min.js" id="wpo_min-header-2-js"></script>
+<link rel="https://api.w.org/" href="../../wp-json"/><link rel="alternate" type="application/json" href="../../wp-json/wp/v2/posts/3656"/><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc.php?rsd"/>
+<meta name="generator" content="WordPress 6.3.2"/>
+<link rel="canonical" href=""/>
+<link rel="shortlink" href="../../?p=3656"/>
+<link rel="alternate" type="application/json+oembed" href="../../wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftrueprofit.io%2Fblog%2Fmulti-touch-attribution%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftrueprofit.io%2Fblog%2Fmulti-touch-attribution%2F&amp;format=xml"/>
+<link rel="icon" href="../../wp-content/uploads/2022/05/cropped-cropped-cropped-favicon-TP-32x32.png" sizes="32x32"/>
+<link rel="icon" href="../../wp-content/uploads/2022/05/cropped-cropped-cropped-favicon-TP-192x192.png" sizes="192x192"/>
+<link rel="apple-touch-icon" href="../../wp-content/uploads/2022/05/cropped-cropped-cropped-favicon-TP-180x180.png"/>
+<meta name="msapplication-TileImage" content="https://trueprofit.io/wp-content/uploads/2022/05/cropped-cropped-cropped-favicon-TP-270x270.png"/>
+		<style type="text/css" id="wp-custom-css">
+			  #focusbox.table:hover  {
+    background-color: #16162f;
+  }
+.grecaptcha-badge{
+	visibility: hidden;
+}
+		</style>
+		    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5DQCTBV');</script>
+    <!-- End Google Tag Manager --></head>
+
+<body class="post-template-default single single-post postid-3656 single-format-standard wp-custom-logo group-blog has-sidebar-right has-ftoc">
+	    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DQCTBV"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+        <header id="masthead" class="site-header" role="banner">
+            <div class="nav-container">
+                <nav id="site-navigation" class="main-navigation" role="navigation">
+                    <div class="container nav-bar">
+                        <div class="flex-row">
+                            <div class="module left site-title-container">
+                                <a href="../../index.html" class="custom-logo-link" rel="home" itemprop="url"><img width="200" height="50" src="../../wp-content/uploads/2022/05/Logo-trueprofit-300x75.png" class="custom-logo logo" alt="TrueProfit" decoding="async" itemprop="logo" srcset="https://trueprofit.io/wp-content/uploads/2022/05/Logo-trueprofit-300x75.png 300w, https://trueprofit.io/wp-content/uploads/2022/05/Logo-trueprofit-1024x256.png 1024w, https://trueprofit.io/wp-content/uploads/2022/05/Logo-trueprofit-768x192.png 768w, https://trueprofit.io/wp-content/uploads/2022/05/Logo-trueprofit-400x100.png 400w, https://trueprofit.io/wp-content/uploads/2022/05/Logo-trueprofit-800x200.png 800w, https://trueprofit.io/wp-content/uploads/2022/05/Logo-trueprofit.png 1200w" sizes="(max-width: 200px) 100vw, 200px"/></a>                            </div>
+                            <button class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <div class="module-group right">
+                                <div class="module">
+                                    <div class="collapse navbar-collapse navbar-ex1-collapse"><ul id="menu" class="menu"><li id="menu-item-145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-145"><a>Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-2208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2208"><a href="../../pnl-dashboard/index.html">Profit Dashboard</a></li>
+	<li id="menu-item-2209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2209"><a href="../../expense-tracking/index.html">Expense Tracking</a></li>
+	<li id="menu-item-4653" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4653"><a href="../../marketing-attribution/index.html">Marketing Attribution</a></li>
+</ul>
+</li>
+<li id="menu-item-2205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2205"><a href="../../pricing/index.html">Pricing</a></li>
+<li id="menu-item-2463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2463"><a href="../index.html">Blog</a></li>
+<li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a href="../../contact-us/index.html">Contact Us</a></li>
+<li><div id="trueprofit-user-sync"></div></li></ul></div>                                </div>
+                                                            </div>
+
+                            <!--end of module group-->
+                        </div>
+                    </div>
+                </nav><!-- #site-navigation -->
+            </div>
+        </header><!-- #masthead -->
+    	<div id="content" class="main-container">
+		
+		<section class="content-area ">
+			<div id="main" class="" role="main">
+    <div id="primary">
+        <div class="container">
+                            <div class="d-flex wrap-categories">
+                    <div class=" list-categories desktop">
+
+            
+                        <a href="../category/finance/index.html" alt="View all articles in Finance Fundamentals" class="">Finance Fundamentals</a>
+                        <a href="../category/ecommerce/index.html" alt="View all articles in eCommerce" class="">eCommerce</a>
+                        <a href="../category/profit-calculation/index.html" alt="View all articles in Profit Calculation" class="">Profit Calculation</a>
+                        <a href="../category/product-updates/index.html" alt="View all articles in Product Updates" class="">Product Updates</a>
+                    </div>
+                    <div class="search-block">
+                        <form role="search" method="get" id="searchform" class="search-form" action="https://trueprofit.io/">
+    <label class="screen-reader-text" for="s">Search for:</label>
+    <button type="submit" class="searchsubmit"><i class="fa fa-search" aria-hidden="true"></i></button>
+    <input type="text" placeholder="Search articles" value="" name="s" id="s"/>
+    
+    </form>                    </div>
+                </div>
+                            <div class="breadcrumb ">
+                <a href="../../blog.html">Blog</a> <i class="lh-1 fa-solid fa-angle-right"></i> <span><a href="../category/finance/index.html">Finance Fundamentals</a></span>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-xs-12">
+
+                    <div class="blog-info">
+                        <h1 class="page-title">Multi-Touch Attribution and Models: A Complete Guide [2023 Edition]</h1>
+                        <p><a href="../category/finance/index.html" class="article-category">Finance Fundamentals</a></p>
+                        <p class="s13"><span class="text-cap">Aug 13, 2023</span> | <span class="text-cap">14 min read</span> | <span class="go-to-comment-form comment">Leave a comment</span></p>
+                    </div>
+                    <div class="social-share">
+
+                        <ul class="list-share"><li><a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Share Facebook" target="_blank" class="fg-tooltip icon-facebook align-items-center  justify-content-end" href="https://www.facebook.com/sharer/sharer.php?u=https://trueprofit.io/blog/multi-touch-attribution/"><img src="../../wp-content/themes/trueprofit/assets/images/facebook.png"/></a></li><li><a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Share Instagram" target="_blank" class="fg-tooltip icon-linkedin align-items-center justify-content-end" href="https://www.instagram.com/sharer/sharer.php?u=https://trueprofit.io/blog/multi-touch-attribution/"> <img src="../../wp-content/themes/trueprofit/assets/images/instagram.png"/></a></li><li><a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Share Twitter" target="_blank" class="fg-tooltip icon-twitter align-items-center justify-content-end" href="https://twitter.com/home?status=https://trueprofit.io/blog/multi-touch-attribution/"> <img src="../../wp-content/themes/trueprofit/assets/images/twitter.png"/></a></li></ul>                    </div>
+
+                                        <div class="hero_banner mt-4 pb-4">
+                        <img width="966" height="719" src="../../wp-content/uploads/multi-touch-attribution.webp" class="attachment-large size-large wp-post-image" alt="Multi-Touch Attribution and Models: A Complete Guide - TrueProfit" decoding="async" fetchpriority="high" srcset="https://trueprofit.io/wp-content/uploads/multi-touch-attribution.webp 966w, https://trueprofit.io/wp-content/uploads/multi-touch-attribution-300x223.webp 300w, https://trueprofit.io/wp-content/uploads/multi-touch-attribution-768x572.webp 768w, https://trueprofit.io/wp-content/uploads/multi-touch-attribution-400x298.webp 400w, https://trueprofit.io/wp-content/uploads/multi-touch-attribution-800x595.webp 800w" sizes="(max-width: 966px) 100vw, 966px"/>                    </div>
+                    
+                                        
+
+                    <div id="ftwp-container-outer" class="ftwp-in-post ftwp-float-none"><div id="ftwp-container" class="ftwp-wrap ftwp-hidden-state ftwp-maximize ftwp-top-right"><button type="button" id="ftwp-trigger" class="ftwp-shape-square ftwp-border-thin" title="click To Maximize The Table Of Contents"><span class="ftwp-trigger-icon ftwp-icon-number"></span></button><nav id="ftwp-contents" class="ftwp-shape-square ftwp-border-medium"><header id="ftwp-header" class="ftwp-header-clickable"><span id="ftwp-header-control" class="ftwp-icon-number"></span><button type="button" id="ftwp-header-minimize" class="ftwp-icon-expand" aria-labelledby="ftwp-header-title" aria-label="Expand or collapse"></button><h3 id="ftwp-header-title">Contents</h3></header><ol id="ftwp-list" class="ftwp-liststyle-none ftwp-effect-none ftwp-list-nest ftwp-strong-first ftwp-colexp ftwp-colexp-icon"><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-1"><span class="ftwp-text">What is Multi-Touch Attribution?</span></a></li><li class="ftwp-item ftwp-has-sub ftwp-expand"><button type="button" aria-label="Expand or collapse" class="ftwp-icon-expand"></button><a class="ftwp-anchor" href="#ftoc-heading-2"><span class="ftwp-text">Types of Multi-Touch Attribution Models</span></a><ol class="ftwp-sub"><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-3"><span class="ftwp-text">1. Linear Attribution Model</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-4"><span class="ftwp-text">2. Time Decay Attribution Model</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-5"><span class="ftwp-text">3. U-Shaped Attribution Model</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-6"><span class="ftwp-text">4. W-Shaped Attribution</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-7"><span class="ftwp-text">5. Full Path Attribution Model</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-8"><span class="ftwp-text">6. Custom Attribution Model</span></a></li></ol></li><li class="ftwp-item ftwp-has-sub ftwp-expand"><button type="button" aria-label="Expand or collapse" class="ftwp-icon-expand"></button><a class="ftwp-anchor" href="#ftoc-heading-9"><span class="ftwp-text">How To Use Multi-Touch Attribution In Your Business Strategy</span></a><ol class="ftwp-sub"><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-10"><span class="ftwp-text">Step 1: Decide on the models and eCommerce metrics</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-11"><span class="ftwp-text">Step 2: Build your team</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-12"><span class="ftwp-text">Step 3: Utilize marketing analytics tools</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-13"><span class="ftwp-text">Step 4: Break down the insights</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-14"><span class="ftwp-text">Step 5: Keep testing and optimizing</span></a></li></ol></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-15"><span class="ftwp-text">What Is The Difference Between Single Source And Multi-Touch Attribution?</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-16"><span class="ftwp-text">What Are The Drawbacks Of Multi-Touch Attribution?</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-17"><span class="ftwp-text">What Is The Value Of Multi-Touch Attribution?</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-18"><span class="ftwp-text">Final Words</span></a></li></ol></nav></div></div>
+<div id="ftwp-postcontent"><p><strong>Did you know that <a href="https://www.forbes.com/sites/square/2020/12/10/6-tips-for-omnichannel-marketing-success/" target="_blank" rel="nofollow noopener" data-schema-attribute="">the average consumer interacts with 10 different channels before making a purchase</a>?</strong> The customer journey involves multiple interactions across multiple touchpoints and channels. Rarely does a conversion or sale happen after just one interaction.</p>
+<p>Instead, conversions and sales frequently result from a combination of touchpoints with many sources. There are so many touchpoints, makes it difficult to determine which one contributed most to a conversion.</p>
+<p>This is when <strong>multi-touch attribution</strong> comes in!</p>
+<p>In this article, we’ll outline the principles of multi-touch attribution, point out the variations among the models, and assist you in appreciating its values. Let’s get going.</p>
+<h2 id="ftoc-heading-1" class="ftwp-heading">What is Multi-Touch Attribution?</h2>
+<p><a href="index.html" target="_blank" rel="noopener" data-schema-attribute=""><strong>Multi-touch attribution (MTA)</strong></a>, also known as fractional attribution, is a technique for marketing measurement that <strong>establishes the importance of every touchpoint made by the customer during the conversion process. </strong>It distributes a specific percentage of credit to each channel so you can evaluate the importance of each touchpoint in generating a conversion.</p>
+<p>Multi-touch attribution models should be used for <strong>campaigns that are dependent on digital spending</strong>, like email or online paid advertising that operate across several channels and devices. MTA insights can also be used with automation tools to automate processes like email deployment.<a href="https://shopify.pxf.io/daVP4K" target="_blank" rel="nofollow noopener noopenner"><img decoding="async" class="aligncenter wp-image-3599" src="../../wp-content/uploads/shopify-free-trial-3-months-1.png" alt="" width="500" height="250" srcset="https://trueprofit.io/wp-content/uploads/shopify-free-trial-3-months-1.png 600w, https://trueprofit.io/wp-content/uploads/shopify-free-trial-3-months-1-300x150.png 300w, https://trueprofit.io/wp-content/uploads/shopify-free-trial-3-months-1-400x200.png 400w" sizes="(max-width: 500px) 100vw, 500px"/></a></p>
+<h2 id="ftoc-heading-2" class="ftwp-heading">Types of Multi-Touch Attribution Models</h2>
+<p>Several popular multi-touch attribution models analyze every touchpoint used before conversion. To get you started, here are six of the most popular MTA models with specific multi-touch attribution examples for better illustration.</p>
+<h3 id="ftoc-heading-3" class="ftwp-heading">1. Linear Attribution Model</h3>
+<p><img decoding="async" class="aligncenter size-full wp-image-4401" src="../../wp-content/uploads/linear-attribution-1.webp" alt="linear attribution" width="1200" height="600" srcset="https://trueprofit.io/wp-content/uploads/linear-attribution-1.webp 1200w, https://trueprofit.io/wp-content/uploads/linear-attribution-1-300x150.webp 300w, https://trueprofit.io/wp-content/uploads/linear-attribution-1-1024x512.webp 1024w, https://trueprofit.io/wp-content/uploads/linear-attribution-1-768x384.webp 768w, https://trueprofit.io/wp-content/uploads/linear-attribution-1-400x200.webp 400w, https://trueprofit.io/wp-content/uploads/linear-attribution-1-800x400.webp 800w" sizes="(max-width: 1200px) 100vw, 1200px"/></p>
+<p>In the linear attribution model,<strong> every touchpoint in the buyer’s journey receives equal credit for a conversion. </strong>This is sometimes referred to as an even-weighting attribution model.</p>
+<p>For example, let’s say you want to measure how effective your marketing efforts are for TrueProfit, and you use the linear attribution model. If a customer sees <strong>a native ad on a website</strong> and <strong>an</strong> <strong>email</strong> from TrueProfit, then decides to buy the product, each touchpoint would get 50% of the credit.</p>
+<p>But what if the customer also sees <strong>a Youtube commercial</strong> and <strong>a sponsored promotion from a famous entrepreneur</strong>? In that case, each of the 4 touchpoints would get 25% of the credit, even though they may have different levels of influence on the customer.</p>
+<p>This is one of the drawbacks of linear attribution. A customer may be more persuaded by a testimonial from a successful entrepreneur than by a generic commercial or an email. However, linear attribution would not reflect this difference and would give the same credit to all touchpoints.</p>
+<table class=" table table-hover" style="width: 100%; border-collapse: collapse; background-color: #f5f5f5;">
+<tbody>
+<tr>
+<td style="width: 100%;"><strong>💡 Should you use linear attribution?</strong><p></p>
+<p>If your prospects frequently spend a long time in the consideration stage of the buyer’s journey, this multi-touch attribution model is fantastic for you since it allows you to see the effects of all of your content and messaging during that time frame.</p>
+<p>It’s also perfect if you want to understand how your touchpoints work alongside one another to affect a sale or if you’re new to multi-touch attribution and don’t know how your touchpoints typically perform with your target audience.</p></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ftoc-heading-4" class="ftwp-heading">2. Time Decay Attribution Model</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-4404" src="../../wp-content/uploads/time-decay-attribution-1.webp" alt="time decay attribution" width="1200" height="600" srcset="https://trueprofit.io/wp-content/uploads/time-decay-attribution-1.webp 1200w, https://trueprofit.io/wp-content/uploads/time-decay-attribution-1-300x150.webp 300w, https://trueprofit.io/wp-content/uploads/time-decay-attribution-1-1024x512.webp 1024w, https://trueprofit.io/wp-content/uploads/time-decay-attribution-1-768x384.webp 768w, https://trueprofit.io/wp-content/uploads/time-decay-attribution-1-400x200.webp 400w, https://trueprofit.io/wp-content/uploads/time-decay-attribution-1-800x400.webp 800w" sizes="(max-width: 1200px) 100vw, 1200px"/></p>
+<p>A time-decay attribution model assigns <strong>more credit to the touchpoints that are closer to the conversion</strong>, <strong>and less credit to the ones that are further away</strong>. This way, it reflects the idea that the last touchpoints (or the most recent) have more influence on the customer’s decision than the first ones (the less recent).</p>
+<p>Let’s carry on the previous example, but in this case, we’ll measure the marketing efforts with the time decay attribution model. If a customer sees four channels in one day and then buys TrueProfit software, the credit distribution would look like this:</p>
+<ul>
+<li><strong>Native ad on a website:</strong> 5%</li>
+<li><strong>Email marketing:</strong> 10%</li>
+<li><strong>Youtube commercial:</strong> 20%</li>
+<li><strong>A sponsored promotion from a famous entrepreneur:</strong> 50%</li>
+</ul>
+<p>The more recent the channel, the more credit it gets. The less recent the channel, the less credit it gets. This means that the sponsored promotion is considered the most influential channel, while the display advertisement is considered the least influential.</p>
+<table class=" table table-hover" style="width: 100%; border-collapse: collapse; background-color: #f5f5f5;">
+<tbody>
+<tr>
+<td style="width: 100%;"><strong>💡 </strong><strong>Should you use time decay attribution?</strong><p></p>
+<p>Time decay attribution is suitable if you’re examining the success of short-term touchpoints like campaigns.</p></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ftoc-heading-5" class="ftwp-heading">3. U-Shaped Attribution Model</h3>
+<p><strong>The first and last touchpoints in the buyer’s journey receive a bigger percentage of credit</strong> than the touchpoints in the middle based on the U-shaped attribution model, commonly referred to as a bathtub model.</p>
+<p>Similar to the last example, a customer sees four channels before buying TrueProfit. The U-shaped attribution model gives 40% of the credit to the first and last channels, and 10% to each of the middle ones. Therefore, the credit distribution would look like this:</p>
+<ul>
+<li><strong>Display advertisement:</strong> 40%</li>
+<li><strong>Native ad:</strong> 10%</li>
+<li><strong>Online commercial:</strong> 10%</li>
+<li><strong>Sponsored promotion:</strong> 40%</li>
+</ul>
+<p>This means that the display advertisement and the sponsored promotion are considered the most influential channels, while the native ad and the online commercial are considered less influential.</p>
+<p>As it recognizes that not all touchpoints are created equal, this type of model is a little more complex than the linear attribution model. Furthermore, it’s far from flawless because it takes a very straightforward approach to the middle of the client journey.</p>
+<table class=" table table-hover" style="width: 100%; border-collapse: collapse; background-color: #f5f5f5;">
+<tbody>
+<tr>
+<td style="width: 100%;"><strong>💡 Should you use U-shaped attribution?</strong><p></p>
+<p>If your team concentrates on the effects of the first and last of your numerous touchpoints, U-shaped attribution is suitable. Less attention is placed on touchpoints that aid in the middle phases of the buying process.</p></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ftoc-heading-6" class="ftwp-heading">4. W-Shaped Attribution</h3>
+<p><strong>The first and last touchpoints of the buyer’s journey are credited, and the middle touchpoints are also valued,</strong> based on the W-shaped multi-touch attribution model.</p>
+<p>It gives more credit to three key channels that are important for your sales: <strong>the first channel that creates awareness</strong>, <strong>the channel that generates a lead</strong>, and <strong>the channel that drives conversion</strong>. It gives less credit to the other channels that are in between.</p>
+<p>For example, let’s say a customer sees five channels before buying TrueProfit:</p>
+<ul>
+<li>A television commercial that introduces TrueProfit</li>
+<li>A display advertisement on a website that shows TrueProfit’s features</li>
+<li>A native ad on a blog that reviews TrueProfit</li>
+<li>An email from TrueProfit that offers a free trial</li>
+<li>A sponsored promotion from a famous entrepreneur on Instagram that endorses TrueProfit</li>
+</ul>
+<p>The W-shaped attribution model gives 30% of the credit to the first, third, and fifth channels, and 5% to each of the second and fourth channels. Therefore, the credit distribution would look like this:</p>
+<ul>
+<li><strong>Television commercial: 30%</strong></li>
+<li>Display advertisement: 5%</li>
+<li><strong>Native ad:</strong> <strong>30%</strong></li>
+<li>Email: 5%</li>
+<li><strong>Sponsored promotion: 30%</strong></li>
+</ul>
+<p>This means that the television commercial, the native ad, and the sponsored promotion are considered the most influential channels, while the display advertisement and the email are considered less influential.</p>
+<table class=" table table-hover" style="width: 100%; border-collapse: collapse; background-color: #f5f5f5;">
+<tbody>
+<tr>
+<td style="width: 100%;"><strong>💡 </strong><strong>Should you use W-shaped attribution?</strong><p></p>
+<p>If you want to know which touchpoints truly convert leads but you also want to know which touchpoints motivate customers to engage and proceed through the buyer’s journey, the W-shaped attribution model should be your choice.</p></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ftoc-heading-7" class="ftwp-heading">5. Full Path Attribution Model</h3>
+<p>Full path attribution is a type of multi-touch attribution model that <strong>assigns credit to every touchpoint on the customer journey, from the first interaction to the last</strong>. It is a comprehensive and detailed way to measure the impact of different marketing channels on your sales.</p>
+<p>According to this model, the initial touchpoint, lead generation, opportunity generation, and final customer closing touchpoint each receives 22.5% of the credit, with any subsequent touchpoints receiving 10%.</p>
+<table class=" table table-hover" style="width: 100%; border-collapse: collapse; background-color: #f5f5f5;">
+<tbody>
+<tr>
+<td style="width: 100%;"><strong>💡 </strong><strong>Should you use full path attribution?</strong><p></p>
+<p>Full path attribution is especially useful for businesses that have long and complex sales cycles, such as B2B markets, or high-involvement purchases, such as cars or houses. These types of businesses usually have multiple touchpoints with their customers, such as emails, webinars, demos, phone calls, etc.</p>
+<p>It may not be the best choice for businesses that have short and simple sales cycles, such as B2C markets, or low-involvement purchases, such as books or clothes. This is due to its complicated nature and can be time-consuming for these businesses.</p></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ftoc-heading-8" class="ftwp-heading">6. Custom Attribution Model</h3>
+<p>To evaluate the importance of each touchpoint according to the particular rules of your business, a custom attribution model is developed. This requires giving different touch points weights based on how much of an impact they have on conversion.</p>
+<p>You need to first understand the data from your numerous marketing channels to create a custom multi-touch attribution model. Additionally, you need to comprehend how your prospects respond to various touchpoints.</p>
+<p>By customizing your multi-touch attribution strategy, you can get the most out of your marketing data. Besides, it allows you to adjust the model to meet your specific requirements and ensures that conversion credit is delivered for all touchpoints.</p>
+<table class=" table table-hover" style="width: 100%; border-collapse: collapse; background-color: #f5f5f5;">
+<tbody>
+<tr>
+<td style="width: 100%;"><strong>💡 Should you use custom attribution?</strong><p></p>
+<p>If none of the models mentioned above work for your business, you can create your multi-touch attribution model.</p>
+<p>Remember that creating a custom model can be challenging and that you need sophisticated marketing attribution software, to begin with before you can tailor your attribution strategy.</p></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ftoc-heading-9" class="ftwp-heading">How To Use Multi-Touch Attribution In Your Business Strategy</h2>
+<p>Setting up an MTA might be difficult. The increasingly complicated customer journey makes it challenging to select the right model for your store’s requirements.</p>
+<p>Customers today frequently switch between many devices, channels, and platforms before deciding on one, making it tough to track them given the growing privacy concerns.</p>
+<p>That does not, however, mean that you shouldn’t begin; the sooner you do so, the quicker your attribution strategy may be optimized. The steps to follow for the best outcomes are listed below:</p>
+<h3 id="ftoc-heading-10" class="ftwp-heading">Step 1: Decide on the models and eCommerce metrics</h3>
+<p>Following your business objectives, you must choose which multi-touch attribution models to use. Considerations like the length of the sales cycle and the sorts of campaigns should be taken into account while selecting the models.</p>
+<p>Then, you may choose your <a href="../ecommerce-metrics/index.html" target="_blank" rel="noopener" data-schema-attribute="">eCommerce metrics</a>. These indicators will be used to assess success or failure. These eCommerce metrics are frequently used to <a href="https://onecommerce.io/blog/return-on-investment/" target="_blank" rel="noopener" data-schema-attribute="">improve ROI</a> and user experience.</p>
+<p><a href="https://getstartedtiktok.pxf.io/XYnvAM" target="_blank" rel="nofollow noopener"><img decoding="async" loading="lazy" class="aligncenter" src="../../wp-content/uploads/728x90_2.png" alt="" width="728" height="90"/></a></p>
+<h3 id="ftoc-heading-11" class="ftwp-heading">Step 2: Build your team</h3>
+<p>The next step is to bring together everyone who will be a part of the process. Whoever is in charge will be responsible for collecting and analyzing data from all sources.</p>
+<p>Managers of analytics and marketing analysis may fall under this category. Purchase agreements from budget stakeholders who have a say in the approval or disapproval of specific activities and expenditures may be required.</p>
+<p>The marketing team must also be included because they can enhance various consumer touchpoints based on the data’s results.</p>
+<h3 id="ftoc-heading-12" class="ftwp-heading">Step 3: Utilize marketing analytics tools</h3>
+<p>Utilizing an analytics tool that allows multi-touch attribution modeling is the next step. This enables you to gather all the attribution information you require in one place, which is necessary for an analysis to be successful.</p>
+<p>You must be able to filter and compile data into distinct, understandable, and easily quantifiable measurements while working with a huge number of data.</p>
+<p>Choose an attribution system that provides person-level, detailed data in addition to extra insights that may point to the driving force behind a conversion, such as strong brand equity or potent copy.</p>
+<h3 id="ftoc-heading-13" class="ftwp-heading">Step 4: Break down the insights</h3>
+<p>Once you have your data, you can start mining it for insightful information. You could try looking up responses to the following concerns:</p>
+<ul>
+<li>How lengthy is the normal sales cycle for your business? What changes are based on the channel for this?</li>
+<li>How effectively do your different marketing channels move potential customers toward conversion?</li>
+<li>Is there anything that consistently prevents conversion?</li>
+<li>Do you have any suggestions for improving conversions on your website or web pages?</li>
+<li>Are there any channels that stand out as performing very well or poorly?</li>
+<li>Do any touchpoints exist that significantly alter the level of engagement?</li>
+<li>How do different channels work together to influence conversions?</li>
+</ul>
+<p>You will have a clear understanding of how your campaign performed once you have responses to all of these queries based on the information provided by your multi-touch attribution model. You may develop a more customized experience for your customers by using those data to start course correction in real time.</p>
+<h3 id="ftoc-heading-14" class="ftwp-heading">Step 5: Keep testing and optimizing</h3>
+<p>This shouldn’t be done just once. Instead, you should be analyzing your MTA data over time to improve and test your marketing efforts. You’ll be able to choose the greatest approaches and marketing sequences to reach your customers at the ideal moments if you regularly optimize and test your campaigns.</p>
+<h2 id="ftoc-heading-15" class="ftwp-heading">What Is The Difference Between Single Source And Multi-Touch Attribution?</h2>
+<p>The “<strong><a href="../last-click-attribution/index.html" target="_blank" rel="noopener" data-schema-attribute="">last click</a>/last touch</strong>” or “<strong>first click/first touch</strong>” attribution model, also known as the single source attribution model, gives one touchpoint sole credit for a conversion.</p>
+<p>It reduces the customer journey to a single crucial interaction—either the very first or the very last one that influenced the consumer’s choice to make a purchase.</p>
+<p>Multi-touch attribution differs from first-touch and last-touch attribution because it doesn’t attribute a conversion to the first or last marketing touchpoint a customer experiences before converting.</p>
+<p>Let’s compare these two primary single-source attribution model categories with the multi-touch attribution model in more detail:</p>
+<table class=" table table-hover" style="border-style: solid; border-color: #b3b3b3; width: 100%; height: 320px;">
+<tbody>
+<tr style="height: 56px;">
+<td style="width: 9.57216%; background-color: #f5f5f5; height: 56px;"></td>
+<td style="width: 30.5293%; text-align: center; background-color: #f5f5f5; height: 56px;"><b>Multi-Touch Attribution Model</b></td>
+<td style="width: 31.8347%; text-align: center; background-color: #f5f5f5; height: 56px;"><b>First Click Attribution Model</b></td>
+<td style="width: 27.1936%; text-align: center; background-color: #f5f5f5; height: 56px;"><a href="../last-click-attribution/index.html" target="_blank" rel="noopener" data-schema-attribute=""><b>Last Click Attribution Model</b></a></td>
+</tr>
+<tr style="height: 80px;">
+<td style="width: 9.57216%; background-color: #f5f5f5; height: 80px;"><b>Touchp</b><b>oint </b><b>Credits</b></td>
+<td style="width: 30.5293%; height: 80px;"><span style="font-weight: 400;">Distribute credit among all touchpoints in accordance with the model defined</span></td>
+<td style="width: 31.8347%; height: 80px;"><span style="font-weight: 400;"> 100% credit to the first touchpoint</span></td>
+<td style="width: 27.1936%; height: 80px;"><span style="font-weight: 400;"> 100% credit to the last touchpoint</span></td>
+</tr>
+<tr style="height: 80px;">
+<td style="width: 9.57216%; background-color: #f5f5f5; height: 80px;"><b>Setup </b><b>Process</b></td>
+<td style="width: 30.5293%; height: 80px;"><span style="font-weight: 400;">A challenging attribution model to adopt as it typically requires a strict 5-step process to implement.</span></td>
+<td style="width: 31.8347%; height: 80px;"><span style="font-weight: 400;">Simpler to implement than the multi-touch attribution model.</span></td>
+<td style="width: 27.1936%; height: 80px;"><span style="font-weight: 400;">Simpler to implement than the multi-touch attribution model.</span></td>
+</tr>
+<tr style="height: 104px;">
+<td style="width: 9.57216%; background-color: #f5f5f5; height: 104px;"><b>Analytics</b></td>
+<td style="width: 30.5293%; height: 104px;"><span style="font-weight: 400;">It offers a clear, comprehensive picture of the customer experience and identifies actions that have an impact on purchases and those that don’t.</span></td>
+<td style="width: 31.8347%; height: 104px;"><span style="font-weight: 400;">It gives you insights into the first point of interactions that converts leads.</span></td>
+<td style="width: 27.1936%; height: 104px;"><span style="font-weight: 400;">It gives you insights into the last point of interactions that converts leads.</span></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ftoc-heading-16" class="ftwp-heading">What Are The Drawbacks Of Multi-Touch Attribution?</h2>
+<p>Although they offer more insights than other marketing measurements, multi-touch attribution models are not flawless. There are a few key difficulties you encounter when you work to refine your attribution measurements.</p>
+<ul>
+<li><strong>Lacking in Offline Metrics:</strong> MTA is frequently used for campaigns that make use of digital marketing platforms since it tracks consumer behavior (e.g. clicks). This makes it difficult for these models to include offline data, like exposure to a print or television ad.</li>
+<li><strong>Data munging: </strong>These models are all limited in their ability to fully reveal the consumer journey. For the most accurate insights, you must therefore use numerous models and then correlate the data from each.</li>
+<li><strong>Poor awareness of outside factors:</strong> MTA considers user-level information. Therefore, you lack visibility into external phenomena, such as seasonality, that could influence marketing efforts and conversions without using aggregate data.</li>
+<li><strong>Complexity</strong>: Single-source models are much simpler than MTA models. These models may be challenging to set up, administer, and analyze due to their complexity, particularly for businesses lacking sophisticated analytical capabilities.</li>
+<li><strong>Huge data requirements:</strong> To be effective, MTA models need a lot of data from several channels. To ensure that all the data from various channels can be effectively integrated and analyzed, you must not only be able to acquire this amount of data but also have reliable data integration methods.</li>
+<li><strong>Possibility of overvaluing less important touchpoints: </strong>MTA models run the danger of overvaluing less significant interactions because they spread credit among all touchpoints.</li>
+<li><strong>Time and resource burden:</strong> MTA models can be time and resource-consuming because of their complexity and data requirements.</li>
+</ul>
+<h2 id="ftoc-heading-17" class="ftwp-heading">What Is The Value Of Multi-Touch Attribution?</h2>
+<p>As it enables you to identify every channel that contributes to a conversion and which of those channels has the greatest influence on a conversion, MTA is extremely helpful. It provides you with a clear picture of how your touchpoints and channels affect each conversion.</p>
+<p>This is valuable data that you can utilize to optimize those touchpoints for prospective customers and shorten the buyer’s journey. It demonstrates precisely how many touchpoints and channels interact to affect negotiations on a personal level.</p>
+<p>Additionally, you can utilize this data to learn more about the concerns of your target market and the elements of the customer experience that have the most impact on their decision-making.</p>
+<h2 id="ftoc-heading-18" class="ftwp-heading">Final Words</h2>
+<p>Flexibility will be essential for your business as markets continue to change and consumer expectations adjust to a new standard. By giving you a more detailed picture of what is and isn’t working inside your campaigns, <strong>multi-touch attribution</strong> promotes the flexibility you need</p>
+<p>Your team will be able to create data-driven decisions for the next marketing campaigns with complete insight into every touchpoint throughout the consumer journey.</p>
+<p style="text-align: right;"><em>Discover what proper profit-tracking looks like at <a href="../../index.html?utm_source=trueprofit.io&amp;utm_medium=blog&amp;utm_campaign=hyperlink&amp;utm_content=multi-touch-attribution" target="_blank" rel="noopener" data-schema-attribute="">trueprofit.io</a></em></p>
+</div>                    <div id="profile-author" class="author-profile">
+                        <div class="d-flex gap-15">
+                            <p><img src="" class="profile_image" loading="lazy"/></p>
+                            <div class="info">
+                                <p class="author_name">trueprofit</p>
+                                <p class="author-des"></p>
+                            </div>
+                        </div>
+                    </div>
+                                            <div class="related-posts">
+                        <p class="title-related-posts">You might be interested in</p>
+                        <div class="row wrap-articles">
+                                                    <div class="col-lg-4 col-md-4 col-xs-12">
+                                    <img src="../../wp-content/uploads/Data-Driven-Attribution.webp" alt="" loading="lazy"/>
+                                    <div class="wrap-content">
+                                                                                    <p><a href="../category/finance/index.html" class="article-category">Finance Fundamentals</a></p>
+                                            <p><a href="../data-driven-attribution/index.html" class="article-title">A Comprehensive Guide to Data Driven Attribution Model [2023]</a></p>
+                                            <p>Learn about data driven attribution, its benefits, how it provides a comprehensive understanding and of marketing campaigns effectiveness. Read now!</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <p class="article-date">Sep 26, 2023</p>
+                                                <p><a class="permalink" href="../data-driven-attribution/index.html"><i class="fa-solid fa-arrow-right-long"></i></a></p>
+                                            </div>
+                                                                                </div>
+                                </div>
+                                                                <div class="col-lg-4 col-md-4 col-xs-12">
+                                    <img src="../../wp-content/uploads/Omnichannel-Attribution.webp" alt="" loading="lazy"/>
+                                    <div class="wrap-content">
+                                                                                    <p><a href="../category/finance/index.html" class="article-category">Finance Fundamentals</a></p>
+                                            <p><a href="../omnichannel-attribution/index.html" class="article-title">Omnichannel Attribution vs. Multi-Channel Attribution: A Comparison</a></p>
+                                            <p>What are the differences of Omnichannel attribution vs Multi-channel attribution, and which strategic approach results in higher ROI? Find out now!</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <p class="article-date">Sep 26, 2023</p>
+                                                <p><a class="permalink" href="../omnichannel-attribution/index.html"><i class="fa-solid fa-arrow-right-long"></i></a></p>
+                                            </div>
+                                                                                </div>
+                                </div>
+                                                                <div class="col-lg-4 col-md-4 col-xs-12">
+                                    <img src="../../wp-content/uploads/Linear-Attribution.webp" alt="" loading="lazy"/>
+                                    <div class="wrap-content">
+                                                                                    <p><a href="../category/finance/index.html" class="article-category">Finance Fundamentals</a></p>
+                                            <p><a href="../linear-attribution/index.html" class="article-title">Reveal The Secret Of Linear Attribution: A Closer Look [2023]</a></p>
+                                            <p>Explore the world of ad attribution and elevate your marketing success with the power of linear attribution. Unlock valuable insights and practical tips!</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <p class="article-date">Sep 25, 2023</p>
+                                                <p><a class="permalink" href="../linear-attribution/index.html"><i class="fa-solid fa-arrow-right-long"></i></a></p>
+                                            </div>
+                                                                                </div>
+                                </div>
+                                                        </div>
+                        </div>
+                        
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-12 content-sidebar">
+
+                    <div id="sidebar">
+
+<aside id="secondary" class="widget-area" role="complementary">
+	<div id="media_image-2" class="widget widget_media_image"><a href="https://apps.shopify.com/trueprofit?utm_source=trueprofit.io&amp;utm_medium=blog&amp;utm_campaign=banner-cta&amp;utm_content=article"><img width="330" height="600" src="../../wp-content/uploads/Frame-1000007250.webp" class="image wp-image-3640  attachment-full size-full" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy" srcset="https://trueprofit.io/wp-content/uploads/Frame-1000007250.webp 330w, https://trueprofit.io/wp-content/uploads/Frame-1000007250-165x300.webp 165w, https://trueprofit.io/wp-content/uploads/Frame-1000007250-220x400.webp 220w" sizes="(max-width: 330px) 100vw, 330px"/></a></div></aside><!-- #secondary -->
+            </div>                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="social-share-right">
+
+            <ul class="list-share"><li><a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Share Facebook" target="_blank" class="fg-tooltip icon-facebook align-items-center  justify-content-end" href="https://www.facebook.com/sharer/sharer.php?u=https://trueprofit.io/blog/multi-touch-attribution/"><img src="../../wp-content/themes/trueprofit/assets/images/facebook.png"/></a></li><li><a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Share Instagram" target="_blank" class="fg-tooltip icon-linkedin align-items-center justify-content-end" href="https://www.instagram.com/sharer/sharer.php?u=https://trueprofit.io/blog/multi-touch-attribution/"> <img src="../../wp-content/themes/trueprofit/assets/images/instagram.png"/></a></li><li><a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Share Twitter" target="_blank" class="fg-tooltip icon-twitter align-items-center justify-content-end" href="https://twitter.com/home?status=https://trueprofit.io/blog/multi-touch-attribution/"> <img src="../../wp-content/themes/trueprofit/assets/images/twitter.png"/></a></li></ul>        </div>
+
+    </div>
+
+</div><!-- #main -->
+</section><!-- section -->
+
+
+
+<footer id="colophon" class="site-footer footer" role="contentinfo">
+
+    <div class="footer-inner">
+        <div class="container ">
+            <div class="row">
+                
+
+
+			<div class="col-lg-3 col-md-6 col-sm-6 footer-widget" role="complementary">
+			<div id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><img src="../../wp-content/uploads/2022/05/Logo-trueprofit-300x75.png" alt=""/>
+<p>
+	Instant focus on what matters: Net profit.
+</p>
+</div></div><div id="custom_html-4" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><p>
+	<a href="https://apps.shopify.com/trueprofit?utm_source=trueprofit.io&amp;utm_medium=home&amp;utm_campaign=footer" target="_blank" rel="noopener"><img class="alignnone size-full wp-image-141" src="../../wp-content/uploads/2022/05/shopify.png" alt="" width="40" height="40"/></a> 
+	<a href="https://apps.apple.com/app/trueprofit/id1568063007" target="_blank" rel="noopener"><img class="alignnone size-medium wp-image-143" src="../../wp-content/uploads/2022/05/apple.png" alt="" width="40" height="40"/></a> 
+	<a href="https://play.google.com/store/apps/details?id=io.trueprofit" target="_blank" rel="noopener"><img class="alignnone size-medium wp-image-142" src="../../wp-content/uploads/2022/05/android.png" alt="" width="40" height="40"/></a>
+</p></div></div>		</div><!-- .widget-area .first -->
+	
+			<div class="col-lg-3 col-md-6 col-sm-6 footer-widget" role="complementary">
+			<div id="nav_menu-2" class="widget widget_nav_menu"><h2 class="widget-title">Features</h2><div class="menu-features-container"><ul id="menu-features" class="menu"><li id="menu-item-2215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2215"><a href="../../pnl-dashboard/index.html">Profit Dashboard</a></li>
+<li id="menu-item-2216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2216"><a href="../../expense-tracking/index.html">Expense Tracking</a></li>
+<li id="menu-item-4654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4654"><a href="../../marketing-attribution/index.html">Marketing Attribution</a></li>
+</ul></div></div>		</div><!-- .widget-area .second -->
+	
+			<div class="col-lg-3 col-md-6 col-sm-6 footer-widget" role="complementary">
+			<div id="nav_menu-6" class="widget widget_nav_menu"><h2 class="widget-title">Comparison</h2><div class="menu-comparison-container"><ul id="menu-comparison" class="menu"><li id="menu-item-4660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4660"><a href="../../trueprofit-triplewhale-comparison/index.html">TrueProfit vs. Triple Whale</a></li>
+<li id="menu-item-4662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4662"><a href="../../trueprofit-beprofit-comparison/index.html">TrueProfit vs. BeProfit</a></li>
+<li id="menu-item-4661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4661"><a href="../../trueprofit-lifetimely-comparison/index.html">TrueProfit vs. Lifetimely</a></li>
+</ul></div></div>		</div><!-- .widget-area .third -->
+	
+			<div class="col-lg-3 col-md-6 col-sm-6 footer-widget" role="complementary">
+			<div id="nav_menu-3" class="widget widget_nav_menu"><h2 class="widget-title">Resources</h2><div class="menu-resources-container"><ul id="menu-resources" class="menu"><li id="menu-item-2217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2217"><a href="../index.html">Blog</a></li>
+<li id="menu-item-3320" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3320"><a href="../category/product-updates/index.html">Product Updates</a></li>
+<li id="menu-item-4674" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4674"><a href="https://help.trueprofit.io/en/">Help Center</a></li>
+<li id="menu-item-4673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4673"><a href="../../contact-us/index.html">Contact Us</a></li>
+</ul></div></div>		</div><!-- .widget-area .third -->
+	
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="copyright-text">
+        © 2024 TrueProfit. All rights reserved | 
+<a href="../../privacy-policy.html">Privacy Policy</a> |
+<a href="../../terms-of-services.html">Terms of Service</a>    </div>
+    <a class="btn btn-sm fade-half back-to-top inner-link" href="#top"><i class="fa fa-angle-up"></i></a>
+</footer><!-- #colophon -->
+</div>
+</div><!-- #page -->
+
+		<script>
+			document.addEventListener('DOMContentLoaded', function (event) {
+				for (let i = 0; i < document.forms.length; ++i) {
+					let form = document.forms[i];
+					if (form.method != "get") {  var input8no9rteg = document.createElement("input"); input8no9rteg.setAttribute("type", "hidden"); input8no9rteg.setAttribute("name", "8no9rteg");  input8no9rteg.setAttribute("value", "4bdtu8v8uysh"); form.appendChild(input8no9rteg); }
+if (form.method != "get") {  var inputo5ob4kcw = document.createElement("input"); inputo5ob4kcw.setAttribute("type", "hidden"); inputo5ob4kcw.setAttribute("name", "o5ob4kcw");  inputo5ob4kcw.setAttribute("value", "my5owdkz1f67"); form.appendChild(inputo5ob4kcw); }
+if (form.method != "get") {  var inputlav7dfno = document.createElement("input"); inputlav7dfno.setAttribute("type", "hidden"); inputlav7dfno.setAttribute("name", "lav7dfno");  inputlav7dfno.setAttribute("value", "lfyuyesfx5qc"); form.appendChild(inputlav7dfno); }
+				}
+			});
+		</script>
+		        <!--[if lte IE 9]>
+        <script>
+            'use strict';
+            (function($) {
+                $(document).ready(function() {
+                    $('#ftwp-container').addClass('ftwp-ie9');
+                });
+            })(jQuery);
+        </script>
+        <![endif]-->
+		<script type="text/javascript" src="../../wp-content/cache/wpo-minify/1708485366/assets/wpo-minify-footer-9afc0aed.min.js" id="wpo_min-footer-0-js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" id="bootstrap.min.js-js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" id="slick-js-js"></script>
+<script type="text/javascript" id="wpo_min-footer-3-js-extra">
+/* <![CDATA[ */
+var trueprofitAdminObject = {"sticky_header":"1"};
+var MyAjax = {"site_url":"https:\/\/trueprofit.io","ajax_url":"https:\/\/trueprofit.io\/wp-admin\/admin-ajax.php"};
+var fixedtocOption = {"showAdminbar":"","inOutEffect":"fade","isNestedList":"1","isColExpList":"1","showColExpIcon":"1","isAccordionList":"","isQuickMin":"1","isEscMin":"1","isEnterMax":"1","fixedMenu":"","scrollOffset":"10","fixedOffsetX":"71","fixedOffsetY":"80","fixedPosition":"top-right","contentsFixedHeight":"750","inPost":"1","contentsFloatInPost":"none","contentsWidthInPost":"1000","contentsHeightInPost":"250","contentsColexpInitMobile":"1","inWidget":"","fixedWidget":"","triggerBorder":"thin","contentsBorder":"medium","triggerSize":"46","isClickableHeader":"1","debug":"1","postContentSelector":"#ftwp-postcontent","mobileMaxWidth":"768","disappearPoint":"content-bottom","smoothScroll":"","scrollDuration":"500","fadeTriggerDuration":"5000","contentsColexpInit":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../../wp-content/cache/wpo-minify/1708485366/assets/wpo-minify-footer-ef3b1fa7.min.js" id="wpo_min-footer-3-js"></script>
+
+
+
+
+
+</body></html><!-- Cached by WP-Optimize - https://getwpo.com - Last modified: March 17, 2024 5:01 pm (UTC:0) -->

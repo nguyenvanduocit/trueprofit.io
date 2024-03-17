@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://trueprofit.io/xmlrpc.php">
+    <!--<link href="https://fonts.cdnfonts.com/css/cerebri-sans" rel="stylesheet">-->
+    <meta property="og:image" content="https://trueprofit.io/wp-content/uploads/2022/05/thumbnail-trueprofit.jpg">
+    <meta name="google-site-verification" content="1mB66ER9xbci7sX1ZHH6KUhDOycdSaji00OesVb1akg" />
+	<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": {
+                "@type": "SoftwareApplication",
+                "name": "TrueProfit",
+                "description": "Profit Analytics Platform for Shopify and Amazon Businesses",
+                "operatingSystem": "Shopify",
+                "applicationCategory": "BusinessApplication",
+                "offers": { 
+                    "@type": "Offer",
+                    "price": "19.95",
+                    "priceCurrency": "USD",
+                    "availability": "InStock"
+                },
+                "review": {
+                    "@type": "Review",
+                    "datePublished": "%date(Y-m-dTH:i:sP)%",
+                    "dateModified": "%modified(Y-m-dTH:i:sP)%"
+        
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5",
+                        "worstRating": "1",
+                        "bestRating": "5"
+                    }
+                },
+                "image": {
+                    "@type": "ImageObject",
+                    "url": "%post_thumbnail%"
+                }
+            }
+        }
+
+    </script>
+
+
+	<title>How Attribution Models Can Boost Your Marketing Strategies [2023] &#8211; TrueProfit</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="amphtml" href="https://trueprofit.io/blog/what-is-an-attribution-model/amp/" /><meta name="generator" content="AMP for WP 1.0.90"/><link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wpo_min-header-0-css' href='https://trueprofit.io/wp-content/cache/wpo-minify/1708485366/assets/wpo-minify-header-32f52ef2.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpo_min-header-2-css' href='https://trueprofit.io/wp-content/cache/wpo-minify/1708485366/assets/wpo-minify-header-5ef8170a.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css-css' href='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpo_min-header-4-css' href='https://trueprofit.io/wp-content/cache/wpo-minify/1708485366/assets/wpo-minify-header-7f2f1a32.min.css' type='text/css' media='all' />
+<script type='text/javascript' id='wpo_min-header-0-js-extra'>
+/* <![CDATA[ */
+var agrRecaptcha = {"site_key":"6Lf0juMfAAAAAMwr3ewsnN6b6n6WnUwkl-MM_H85"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://trueprofit.io/wp-content/cache/wpo-minify/1708485366/assets/wpo-minify-header-1b680da4.min.js' id='wpo_min-header-0-js'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?onload=agrV3&#038;render=6Lf0juMfAAAAAMwr3ewsnN6b6n6WnUwkl-MM_H85&#038;ver=1.0.15' id='advanced-google-recaptcha-api-js'></script>
+<script type='text/javascript' src='https://trueprofit.io/wp-content/cache/wpo-minify/1708485366/assets/wpo-minify-header-f53e0c17.min.js' id='wpo_min-header-2-js'></script>
+<link rel="https://api.w.org/" href="https://trueprofit.io/wp-json/" /><link rel="alternate" type="application/json" href="https://trueprofit.io/wp-json/wp/v2/posts/4067" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://trueprofit.io/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.3.2" />
+<link rel="canonical" href="https://trueprofit.io/blog/what-is-an-attribution-model/" />
+<link rel='shortlink' href='https://trueprofit.io/?p=4067' />
+<link rel="alternate" type="application/json+oembed" href="https://trueprofit.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftrueprofit.io%2Fblog%2Fwhat-is-an-attribution-model%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://trueprofit.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftrueprofit.io%2Fblog%2Fwhat-is-an-attribution-model%2F&#038;format=xml" />
+<link rel="icon" href="https://trueprofit.io/wp-content/uploads/2022/05/cropped-cropped-cropped-favicon-TP-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://trueprofit.io/wp-content/uploads/2022/05/cropped-cropped-cropped-favicon-TP-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://trueprofit.io/wp-content/uploads/2022/05/cropped-cropped-cropped-favicon-TP-180x180.png" />
+<meta name="msapplication-TileImage" content="https://trueprofit.io/wp-content/uploads/2022/05/cropped-cropped-cropped-favicon-TP-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			  #focusbox.table:hover  {
+    background-color: #16162f;
+  }
+.grecaptcha-badge{
+	visibility: hidden;
+}
+		</style>
+		    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5DQCTBV');</script>
+    <!-- End Google Tag Manager --></head>
+
+<body class="post-template-default single single-post postid-4067 single-format-standard wp-custom-logo group-blog has-sidebar-right has-ftoc">
+	    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DQCTBV"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+        <header id="masthead" class="site-header" role="banner">
+            <div class="nav-container">
+                <nav id="site-navigation" class="main-navigation" role="navigation">
+                    <div class="container nav-bar">
+                        <div class="flex-row">
+                            <div class="module left site-title-container">
+                                <a href="https://trueprofit.io/" class="custom-logo-link" rel="home" itemprop="url"><img width="200" height="50" src="https://trueprofit.io/wp-content/uploads/2022/05/Logo-trueprofit-300x75.png" class="custom-logo logo" alt="TrueProfit" decoding="async" itemprop="logo" srcset="https://trueprofit.io/wp-content/uploads/2022/05/Logo-trueprofit-300x75.png 300w, https://trueprofit.io/wp-content/uploads/2022/05/Logo-trueprofit-1024x256.png 1024w, https://trueprofit.io/wp-content/uploads/2022/05/Logo-trueprofit-768x192.png 768w, https://trueprofit.io/wp-content/uploads/2022/05/Logo-trueprofit-400x100.png 400w, https://trueprofit.io/wp-content/uploads/2022/05/Logo-trueprofit-800x200.png 800w, https://trueprofit.io/wp-content/uploads/2022/05/Logo-trueprofit.png 1200w" sizes="(max-width: 200px) 100vw, 200px" /></a>                            </div>
+                            <button class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <div class="module-group right">
+                                <div class="module">
+                                    <div class="collapse navbar-collapse navbar-ex1-collapse"><ul id="menu" class="menu"><li id="menu-item-145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-145"><a>Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-2208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2208"><a href="https://trueprofit.io/pnl-dashboard/">Profit Dashboard</a></li>
+	<li id="menu-item-2209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2209"><a href="https://trueprofit.io/expense-tracking/">Expense Tracking</a></li>
+	<li id="menu-item-4653" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4653"><a href="https://trueprofit.io/marketing-attribution/">Marketing Attribution</a></li>
+</ul>
+</li>
+<li id="menu-item-2205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2205"><a href="https://trueprofit.io/pricing/">Pricing</a></li>
+<li id="menu-item-2463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2463"><a href="https://trueprofit.io/blog/">Blog</a></li>
+<li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a href="https://trueprofit.io/contact-us/">Contact Us</a></li>
+<li><div id="trueprofit-user-sync"></div></li></ul></div>                                </div>
+                                                            </div>
+
+                            <!--end of module group-->
+                        </div>
+                    </div>
+                </nav><!-- #site-navigation -->
+            </div>
+        </header><!-- #masthead -->
+    	<div id="content" class="main-container">
+		
+		<section class="content-area ">
+			<div id="main" class="" role="main">
+    <div id="primary">
+        <div class="container">
+                            <div class="d-flex wrap-categories">
+                    <div class=" list-categories desktop">
+
+            
+                        <a href="https://trueprofit.io/blog/category/finance/" alt="View all articles in Finance Fundamentals" class="">Finance Fundamentals</a>
+                        <a href="https://trueprofit.io/blog/category/ecommerce/" alt="View all articles in eCommerce" class="">eCommerce</a>
+                        <a href="https://trueprofit.io/blog/category/profit-calculation/" alt="View all articles in Profit Calculation" class="">Profit Calculation</a>
+                        <a href="https://trueprofit.io/blog/category/product-updates/" alt="View all articles in Product Updates" class="">Product Updates</a>
+                    </div>
+                    <div class="search-block">
+                        <form role="search" method="get" id="searchform" class="search-form" action="https://trueprofit.io/" >
+    <label class="screen-reader-text" for="s">Search for:</label>
+    <button type="submit" class="searchsubmit"><i class="fa fa-search" aria-hidden="true"></i></button>
+    <input type="text" placeholder="Search articles" value="" name="s" id="s" />
+    
+    </form>                    </div>
+                </div>
+                            <div class="breadcrumb ">
+                <a href="https://trueprofit.io/blog">Blog</a> <i class="lh-1 fa-solid fa-angle-right"></i> <span><a href="https://trueprofit.io/blog/category/finance/">Finance Fundamentals</a></span>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-xs-12">
+
+                    <div class="blog-info">
+                        <h1 class="page-title">How Attribution Models Can Boost Your Marketing Strategies [2023]</h1>
+                        <p><a href="https://trueprofit.io/blog/category/finance/" class="article-category">Finance Fundamentals</a></p>
+                        <p class="s13"><span class="text-cap">Sep 08, 2023</span> | <span class="text-cap">11 min read</span> | <span class="go-to-comment-form comment">Leave a comment</span></p>
+                    </div>
+                    <div class="social-share">
+
+                        <ul class="list-share"><li><a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Share Facebook" target="_blank" class="fg-tooltip icon-facebook align-items-center  justify-content-end" href="https://www.facebook.com/sharer/sharer.php?u=https://trueprofit.io/blog/what-is-an-attribution-model/"><img src="https://trueprofit.io/wp-content/themes/trueprofit/assets/images/facebook.png" /></a></li><li><a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Share Instagram" target="_blank" class="fg-tooltip icon-linkedin align-items-center justify-content-end"  href="https://www.instagram.com/sharer/sharer.php?u=https://trueprofit.io/blog/what-is-an-attribution-model/"> <img src="https://trueprofit.io/wp-content/themes/trueprofit/assets/images/instagram.png" /></a></li><li><a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Share Twitter" target="_blank" class="fg-tooltip icon-twitter align-items-center justify-content-end" href="https://twitter.com/home?status=https://trueprofit.io/blog/what-is-an-attribution-model/"> <img src="https://trueprofit.io/wp-content/themes/trueprofit/assets/images/twitter.png" /></a></li></ul>                    </div>
+
+                                        <div class="hero_banner mt-4 pb-4">
+                        <img width="966" height="719" src="https://trueprofit.io/wp-content/uploads/attribution-models.webp" class="attachment-large size-large wp-post-image" alt="How Attribution Models Can Boost Your Marketing Strategies - TrueProfit" decoding="async" fetchpriority="high" srcset="https://trueprofit.io/wp-content/uploads/attribution-models.webp 966w, https://trueprofit.io/wp-content/uploads/attribution-models-300x223.webp 300w, https://trueprofit.io/wp-content/uploads/attribution-models-768x572.webp 768w, https://trueprofit.io/wp-content/uploads/attribution-models-400x298.webp 400w, https://trueprofit.io/wp-content/uploads/attribution-models-800x595.webp 800w" sizes="(max-width: 966px) 100vw, 966px" />                    </div>
+                    
+                                        
+
+                    <div id="ftwp-container-outer" class="ftwp-in-post ftwp-float-none"><div id="ftwp-container" class="ftwp-wrap ftwp-hidden-state ftwp-maximize ftwp-top-right"><button type="button" id="ftwp-trigger" class="ftwp-shape-square ftwp-border-thin" title="click To Maximize The Table Of Contents"><span class="ftwp-trigger-icon ftwp-icon-number"></span></button><nav id="ftwp-contents" class="ftwp-shape-square ftwp-border-medium"><header id="ftwp-header" class="ftwp-header-clickable"><span id="ftwp-header-control" class="ftwp-icon-number"></span><button type="button" id="ftwp-header-minimize" class="ftwp-icon-expand" aria-labelledby="ftwp-header-title" aria-label="Expand or collapse"></button><h3 id="ftwp-header-title">Contents</h3></header><ol id="ftwp-list" class="ftwp-liststyle-none ftwp-effect-none ftwp-list-nest ftwp-strong-first ftwp-colexp ftwp-colexp-icon"><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-1"><span class="ftwp-text">What Is An Attribution Model?</span></a></li><li class="ftwp-item ftwp-has-sub ftwp-expand"><button type="button" aria-label="Expand or collapse" class="ftwp-icon-expand"></button><a class="ftwp-anchor" href="#ftoc-heading-2"><span class="ftwp-text">Attribution Model Types</span></a><ol class="ftwp-sub"><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-3"><span class="ftwp-text">1. First-Touch Attribution Model</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-4"><span class="ftwp-text">2. Last-Touch Attribution Model</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-5"><span class="ftwp-text">3. Linear Attribution Model</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-6"><span class="ftwp-text">4. Time-Decay Attribution Model</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-7"><span class="ftwp-text">5. U-shaped Attribution Model (Position-based)</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-8"><span class="ftwp-text">6. W-shaped Attribution Model</span></a></li></ol></li><li class="ftwp-item ftwp-has-sub ftwp-expand"><button type="button" aria-label="Expand or collapse" class="ftwp-icon-expand"></button><a class="ftwp-anchor" href="#ftoc-heading-9"><span class="ftwp-text">3 Popular Attribution Model Tools</span></a><ol class="ftwp-sub"><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-10"><span class="ftwp-text">1. TrueProfit&#8217;s Parameter Generator (most recommended)</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-11"><span class="ftwp-text">2. CailRail</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-12"><span class="ftwp-text">3. Attribution</span></a></li></ol></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-13"><span class="ftwp-text">Shopify Attribution Model</span></a></li><li class="ftwp-item ftwp-has-sub ftwp-expand"><button type="button" aria-label="Expand or collapse" class="ftwp-icon-expand"></button><a class="ftwp-anchor" href="#ftoc-heading-14"><span class="ftwp-text">How To Build Attribution Models?</span></a><ol class="ftwp-sub"><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-15"><span class="ftwp-text">Step 1: Collect data from all your data sources</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-16"><span class="ftwp-text">Step 2: Pull all your data together</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-17"><span class="ftwp-text">Step 3: Decide on an attribution window</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-18"><span class="ftwp-text">Step 4: Choose an attribution model</span></a></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-19"><span class="ftwp-text">Step 5: Evaluate your results</span></a></li></ol></li><li class="ftwp-item"><a class="ftwp-anchor" href="#ftoc-heading-20"><span class="ftwp-text">Final words</span></a></li></ol></nav></div></div>
+<div id="ftwp-postcontent"><p>You’ve spent a lot of time and money on marketing your eCommerce business, but you’re not sure if it’s paying off. How do you know which channels are bringing in customers and which ones are just draining your budget?</p>
+<p>That’s where <strong>attribution models</strong> come in. Attribution models are methods of measuring the impact of your marketing efforts on your sales. They help you track how your customers interact with your brand across different touchpoints and assign credit to each channel accordingly.</p>
+<p>In this article, we will show you what attribution models are, how to choose the best one for your goals, and how to use them to improve your marketing strategy.</p>
+<p>Let’s get started!</p>
+<table  class=" table table-hover" style="width: 100%; border-collapse: collapse; background-color: #f5f5f5;">
+<tbody>
+<tr>
+<td style="width: 100%;"><strong>Read more:</strong></p>
+<ul>
+<li><a href="https://trueprofit.io/blog/multi-channel-attribution/" target="_blank" rel="noopener" data-schema-attribute="">Multi Channel Attribution: The Secret to Boosting Your ROI</a></li>
+<li><a href="https://trueprofit.io/blog/attribution-window/" target="_blank" rel="noopener" data-schema-attribute="">The Secret To Attribution Window Success In 9 Practical Steps</a></li>
+<li><a href="https://trueprofit.io/blog/marketing-attribution-software/" target="_blank" rel="noopener" data-schema-attribute="">5+ Best Marketing Attribution Software to Maximize Your ROI</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ftoc-heading-1" class="ftwp-heading"><a href="https://trueprofit.io/blog/what-is-an-attribution-model/"><strong><span data-preserver-spaces="true">What Is An Attribution Model?</span></strong></a></h2>
+<p>Attribution models are methods of <strong>assigning credit or value to different marketing channels that influence a customer&#8217;s purchase decision. </strong>This model helps measure a marketing campaign&#8217;s <a href="https://onecommerce.io/blog/return-on-investment/" target="_blank" rel="nofollow noopener" data-schema-attribute="">return on investment (ROI)</a> and optimize budget allocation and strategy.</p>
+<p><span data-preserver-spaces="true">Understanding the attribution model definition can be challenging, but it&#8217;s valuable for businesses. For a straightforward illustration, consider the following example:</span></p>
+<p><em><span data-preserver-spaces="true">Imagine you are shopping online for a new pair of shoes. </span></em></p>
+<ul>
+<li><em><span data-preserver-spaces="true">You see an ad on Facebook that catches your eye. <strong>You click on it and browse the website but don&#8217;t buy anything.</strong> [first touch-point]</span></em></li>
+<li><em><span data-preserver-spaces="true">A few days later, you get an email from the same website offering you a 10% discount. <strong>You open the email and click the link but still don&#8217;t buy anything.</strong> [second touch-point]</span></em></li>
+<li><em><span data-preserver-spaces="true">The next day, you search on Google for &#8220;best shoes for running&#8221; and see the same website at the top of the results. <strong>You click on it and finally decide to buy the shoes.</strong> [final touch-point]</span></em></li>
+</ul>
+<p><span data-preserver-spaces="true">Now, how do you know which marketing channel was the most effective in convincing you to buy the shoes? Was it Facebook, email, or Google? Or was it a combination of all three? </span><strong><span data-preserver-spaces="true">This is where attribution models come in.</span></strong></p>
+<p><span data-preserver-spaces="true">Attribution models are essential for eCommerce businesses that want to understand customers&#8217; behavior and preferences. There are multiple attribution models available in the market. The best attribution model for your business will depend on your specific goals and objectives. If you&#8217;re just starting, it&#8217;s a good idea to try a few different models and see which works best for you.</span></p>
+<p><a href="https://shopify.pxf.io/daVP4K" target="_blank" rel="nofollow noopener noopenner"><img decoding="async" class="aligncenter wp-image-3599" src="http://trueprofit.io/wp-content/uploads/shopify-free-trial-3-months-1.png" alt="" width="500" height="250" srcset="https://trueprofit.io/wp-content/uploads/shopify-free-trial-3-months-1.png 600w, https://trueprofit.io/wp-content/uploads/shopify-free-trial-3-months-1-300x150.png 300w, https://trueprofit.io/wp-content/uploads/shopify-free-trial-3-months-1-400x200.png 400w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<h2 id="ftoc-heading-2" class="ftwp-heading"><strong><span data-preserver-spaces="true">Attribution Model Types</span></strong></h2>
+<p><span data-preserver-spaces="true">Now you know the concept of attribution models. But to choose the best model for your online store, you need to understand the different types of attribution models and how they work. Let’s discover 6 most common types of attribution models:</span></p>
+<ul>
+<li><span data-preserver-spaces="true">First-Touch Attribution Model</span></li>
+<li><span data-preserver-spaces="true">Last-Touch Attribution Model</span></li>
+<li><span data-preserver-spaces="true">Linear Attribution Model</span></li>
+<li><span data-preserver-spaces="true">Time-Decay Attribution Model</span></li>
+<li><span data-preserver-spaces="true">U-shaped Attribution Model</span></li>
+<li><span data-preserver-spaces="true">W-shaped Attribution Model</span></li>
+</ul>
+<h3 id="ftoc-heading-3" class="ftwp-heading"><strong><span data-preserver-spaces="true">1. First-Touch Attribution Model</span></strong></h3>
+<p><span data-preserver-spaces="true"><strong><a href="https://trueprofit.io/blog/first-click-attribution/" target="_blank" rel="noopener" data-schema-attribute="">First-touch attribution model</a> method assigns 100% credit to the first marketing channel </strong>a customer engages with before converting<strong>.</strong> To illustrate, if a customer sees a Facebook ad before buying shoes, Facebook is credited entirely for the sale. </span></p>
+<p><span data-preserver-spaces="true">This simplistic approach is easy to implement but fails to acknowledge other contributing channels. It suits businesses with high brand awareness and influential initial customer interactions. Additionally, it facilitates the measurement of top-of-the-funnel marketing activities such as generating traffic and leads. </span></p>
+<p><span data-preserver-spaces="true">Nevertheless, this model may not accurately capture the influence of other channels that may have nurtured or persuaded customers in their purchasing journey.</span></p>
+<h3 id="ftoc-heading-4" class="ftwp-heading"><strong><span data-preserver-spaces="true">2. Last-Touch Attribution Model</span></strong></h3>
+<p><span data-preserver-spaces="true"><strong><a href="https://trueprofit.io/blog/last-touch-attribution/" target="_blank" rel="noopener" data-schema-attribute="">Last-touch attribution model</a> assigns all credit to the final marketing channel </strong>before conversion<strong>.</strong> For example, if a customer clicked on a Google ad and then bought the shoes, Google would get 100% of the credit.</span></p>
+<p><span data-preserver-spaces="true">Last-touch attribution model offers simplicity and ease of implementation. However, it overlooks the potential influence of other channels on the customer&#8217;s decision-making process.</span></p>
+<p><span data-preserver-spaces="true">This model benefits businesses with high conversion rates and a strong lasting impression on customers. It also provides valuable insights into the effectiveness of bottom-of-the-funnel marketing efforts, such as sales closures and revenue generation. </span></p>
+<p><span data-preserver-spaces="true">Nonetheless, it may fail to accurately reflect the impact of initial touchpoints and other contributing channels in driving conversions.</span></p>
+<h3 id="ftoc-heading-5" class="ftwp-heading"><strong><span data-preserver-spaces="true">3. Linear Attribution Model</span></strong></h3>
+<p><span data-preserver-spaces="true"><a href="https://trueprofit.io/blog/linear-attribution/" target="_blank" rel="noopener" data-schema-attribute=""><strong>Linear attribution model </strong></a>is a type of <a href="https://trueprofit.io/blog/multi-touch-attribution/" target="_blank" rel="noopener" data-schema-attribute="">multi-touch attribution model</a> that <strong>distributes equal credit to all marketing channels the customer engages with before converting.</strong> For example, if a customer saw a Facebook ad and then bought the shoes, Facebook would get 100% of the credit.</span></p>
+<p><span data-preserver-spaces="true">This approach is fair and balanced but fails to consider the distinct roles and values of each channel. It suits businesses with a brief and uncomplicated sales cycle and few touchpoints. </span></p>
+<p><span data-preserver-spaces="true">Despite its simplicity, the linear attribution model may not accurately reflect each channel&#8217;s impact on conversions.</span></p>
+<p><img decoding="async" class="aligncenter size-full wp-image-4401" src="http://trueprofit.io/wp-content/uploads/linear-attribution-1.webp" alt="linear attribution" width="1200" height="600" srcset="https://trueprofit.io/wp-content/uploads/linear-attribution-1.webp 1200w, https://trueprofit.io/wp-content/uploads/linear-attribution-1-300x150.webp 300w, https://trueprofit.io/wp-content/uploads/linear-attribution-1-1024x512.webp 1024w, https://trueprofit.io/wp-content/uploads/linear-attribution-1-768x384.webp 768w, https://trueprofit.io/wp-content/uploads/linear-attribution-1-400x200.webp 400w, https://trueprofit.io/wp-content/uploads/linear-attribution-1-800x400.webp 800w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
+<h3 id="ftoc-heading-6" class="ftwp-heading"><strong><span data-preserver-spaces="true">4. Time-Decay Attribution Model</span></strong></h3>
+<p><strong><a href="https://trueprofit.io/blog/time-decay-attribution/" target="_blank" rel="noopener" data-schema-attribute="">The time-decay attribution model</a> gives more credit to the marketing channels that are closer to the conversion. </strong><span data-preserver-spaces="true">For example, if a customer saw a Facebook ad, clicked on a Google ad, opened an email, and then bought the shoes, the email would get the most credit, followed by Google, followed by Facebook.</span></p>
+<p><span data-preserver-spaces="true">Time-decay attribution model is more realistic and reflects the recency effect but may undervalue channels that initiated or assisted the conversion. It suits businesses with a long and complex sales cycle and many touchpoints. It can also help measure the effectiveness of middle-of-the-funnel marketing activities.</span></p>
+<p><span data-preserver-spaces="true">However, the time-decay attribution model may not capture the importance of other channels that may have created awareness or loyalty.</span></p>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-4404" src="http://trueprofit.io/wp-content/uploads/time-decay-attribution-1.webp" alt="time decay attribution" width="1200" height="600" srcset="https://trueprofit.io/wp-content/uploads/time-decay-attribution-1.webp 1200w, https://trueprofit.io/wp-content/uploads/time-decay-attribution-1-300x150.webp 300w, https://trueprofit.io/wp-content/uploads/time-decay-attribution-1-1024x512.webp 1024w, https://trueprofit.io/wp-content/uploads/time-decay-attribution-1-768x384.webp 768w, https://trueprofit.io/wp-content/uploads/time-decay-attribution-1-400x200.webp 400w, https://trueprofit.io/wp-content/uploads/time-decay-attribution-1-800x400.webp 800w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
+<h3 id="ftoc-heading-7" class="ftwp-heading"><strong><span data-preserver-spaces="true">5. U-shaped Attribution Model (Position-based)</span></strong></h3>
+<p><strong><a href="https://trueprofit.io/blog/u-shaped-attribution-model/" target="_blank" rel="noopener" data-schema-attribute="">U-shaped attribution mode</a>l </strong><em>(or position-based attribution model)</em><span data-preserver-spaces="true"><strong> emphasizes the significance of both first and final marketing channels in customer conversion.</strong> It assigns higher credit to these channels while downplaying the contribution of intermediate ones. </span></p>
+<p><span data-preserver-spaces="true">For example, if a customer saw a Facebook ad, clicked on a Google ad, opened an email, and then bought the shoes, Facebook and email would each get 40% of the credit, while Google would get 20%.</span></p>
+<p><span data-preserver-spaces="true">This model works well for businesses with a moderate sales cycle and a medium number of touchpoints. It helps measure the effectiveness of top-of-the-funnel and bottom-of-the-funnel marketing activities, like generating traffic and revenue. </span></p>
+<p><span data-preserver-spaces="true">However, it may not accurately show the impact of other channels that engaged or educated the customer.</span></p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-4051 size-full" src="http://trueprofit.io/wp-content/uploads/u-shaped-attribution.webp" alt="u shaped attribution - marketing attribution" width="1200" height="600" srcset="https://trueprofit.io/wp-content/uploads/u-shaped-attribution.webp 1200w, https://trueprofit.io/wp-content/uploads/u-shaped-attribution-300x150.webp 300w, https://trueprofit.io/wp-content/uploads/u-shaped-attribution-1024x512.webp 1024w, https://trueprofit.io/wp-content/uploads/u-shaped-attribution-768x384.webp 768w, https://trueprofit.io/wp-content/uploads/u-shaped-attribution-400x200.webp 400w, https://trueprofit.io/wp-content/uploads/u-shaped-attribution-800x400.webp 800w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
+<h3 id="ftoc-heading-8" class="ftwp-heading"><strong><span data-preserver-spaces="true">6. W-shaped Attribution Model</span></strong></h3>
+<p><a href="https://trueprofit.io/blog/w-shaped-attribution-model/" target="_blank" rel="noopener" data-schema-attribute=""><strong>W-shaped attribution model </strong></a>is a multi-touch attribution model that<strong> prioritizes the first, middle, and last marketing channels before conversion. </strong></p>
+<p><span data-preserver-spaces="true">To illustrate, if a customer saw a Facebook ad, clicked on a Google ad, opened an email, requested a demo, and then bought the shoes, Facebook, email, and demo would each get 30% of the credit, while Google would get 10%. </span></p>
+<p><span data-preserver-spaces="true">This model works well for businesses with long sales cycles and many touchpoints. It recognizes the importance of awareness, consideration, and decision stages, but it may overlook the influence of other channels that may have nurtured or persuaded the customer to buy.</span></p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-4052 size-full" src="http://trueprofit.io/wp-content/uploads/w-shaped-attribution.webp" alt="w shaped attribution - marketing attribution" width="1200" height="600" srcset="https://trueprofit.io/wp-content/uploads/w-shaped-attribution.webp 1200w, https://trueprofit.io/wp-content/uploads/w-shaped-attribution-300x150.webp 300w, https://trueprofit.io/wp-content/uploads/w-shaped-attribution-1024x512.webp 1024w, https://trueprofit.io/wp-content/uploads/w-shaped-attribution-768x384.webp 768w, https://trueprofit.io/wp-content/uploads/w-shaped-attribution-400x200.webp 400w, https://trueprofit.io/wp-content/uploads/w-shaped-attribution-800x400.webp 800w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
+<h2 id="ftoc-heading-9" class="ftwp-heading"><strong><span data-preserver-spaces="true">3 Popular Attribution Model Tools</span></strong></h2>
+<p><span data-preserver-spaces="true">Marketing attribution model tools are software apps for tracking, measuring, and optimizing marketing attribution. They gather data from multiple sources, assign credit to different channels and touchpoints using various models, and provide visualizations and reports for insights. </span></p>
+<p><span data-preserver-spaces="true">Let’s discover</span><strong><span data-preserver-spaces="true"> TrueProfit, CallRail,</span></strong><span data-preserver-spaces="true"> and</span><strong><span data-preserver-spaces="true"> Attribution</span></strong><span data-preserver-spaces="true"> &#8211; the 3 top-notch attribution modeling tools for eCommerce businesses.</span></p>
+<h3 id="ftoc-heading-10" class="ftwp-heading">1. <a href="https://chrome.google.com/webstore/detail/trueprofit-parameter-gene/edmmpfomibmieeonkdhiggpgpofemoph" target="_blank" rel="noopener" data-schema-attribute=""><strong><span data-preserver-spaces="true">TrueProfit&#8217;s Parameter Generator</span></strong></a><strong><span data-preserver-spaces="true"> (most recommended)</span></strong></h3>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-4077" src="http://trueprofit.io/wp-content/uploads/trueprofit-parameter-generator-attribution-models-300x188.jpg" alt="trueprofit parameter generator - attribution models" width="1200" height="750" srcset="https://trueprofit.io/wp-content/uploads/trueprofit-parameter-generator-attribution-models-300x188.jpg 300w, https://trueprofit.io/wp-content/uploads/trueprofit-parameter-generator-attribution-models-400x250.jpg 400w, https://trueprofit.io/wp-content/uploads/trueprofit-parameter-generator-attribution-models.jpg 640w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
+<p><span data-preserver-spaces="true"><strong>TrueProfit is a specialized attribution model tool</strong> for eCommerce stores that utilizes advanced analytics and AI to <strong>track and enhance marketing performance and profitability</strong>. </span></p>
+<p><span data-preserver-spaces="true">With </span><strong>TrueProfit&#8217;s Multi-Channel Attribution</strong><span data-preserver-spaces="true">, you can effectively <strong>track the entire customer journey and identify the channels responsible for driving sales</strong>, enabling you to invest in the most profitable ones. </span></p>
+<p><span data-preserver-spaces="true">Additionally, you can customize the weight of each channel and touchpoint based on your business objectives and preferences. </span></p>
+<p><span data-preserver-spaces="true">With AI analysis, this tool provides actionable insights and recommendations to optimize pricing, inventory management, marketing budget allocation, campaign strategy, ad creative, and more. </span></p>
+<p><span data-preserver-spaces="true">Overall, TrueProfit Multi-Channel Attribution is a simple yet highly powerful tool for improving marketing attribution and profitability for all sizes and niches of Shopify stores. </span></p>
+<p><em>💡 Please note that this extension is only for users who have installed and used TrueProfit, so we encourage installing TrueProfit to experience this helpful feature!</em></p>
+<h3 id="ftoc-heading-11" class="ftwp-heading">2. <a class="editor-rtfLink" href="https://www.callrail.com/" target="_blank" rel="nofollow noopener" data-schema-attribute=""><strong><span data-preserver-spaces="true">CailRail</span></strong></a></h3>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-4076" src="http://trueprofit.io/wp-content/uploads/CailRail-attribution-models-300x145.webp" alt="CailRail - attribution models" width="1200" height="581" srcset="https://trueprofit.io/wp-content/uploads/CailRail-attribution-models-300x145.webp 300w, https://trueprofit.io/wp-content/uploads/CailRail-attribution-models-768x372.webp 768w, https://trueprofit.io/wp-content/uploads/CailRail-attribution-models-400x194.webp 400w, https://trueprofit.io/wp-content/uploads/CailRail-attribution-models-800x388.webp 800w, https://trueprofit.io/wp-content/uploads/CailRail-attribution-models.webp 900w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
+<p><span data-preserver-spaces="true"><strong>CallRail</strong> is a call tracking and marketing analytics platform that allows you to <strong>measure the impact of your phone calls on your marketing attribution</strong>. It tracks and records calls from both online and offline campaigns, attributing each call to specific marketing campaigns and channels.</span></p>
+<p><span data-preserver-spaces="true"> CallRail integrates with various analytics tools like Google Analytics, Google Ads, Facebook Ads Manager, etc., providing custom reports and dashboards for visualizing and comparing call data. </span></p>
+<p><span data-preserver-spaces="true">It is ideal for eCommerce businesses that heavily rely on phone calls for conversions or customer service, helping them optimize call performance and attribution.</span></p>
+<h3 id="ftoc-heading-12" class="ftwp-heading">3. <a class="editor-rtfLink" href="https://www.attributionapp.com/" target="_blank" rel="nofollow noopener" data-schema-attribute=""><strong><span data-preserver-spaces="true">Attribution</span></strong></a></h3>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-4075" src="http://trueprofit.io/wp-content/uploads/Attribution-attribution-models-300x158.webp" alt="Attribution - attribution models" width="1200" height="632" srcset="https://trueprofit.io/wp-content/uploads/Attribution-attribution-models-300x158.webp 300w, https://trueprofit.io/wp-content/uploads/Attribution-attribution-models-768x404.webp 768w, https://trueprofit.io/wp-content/uploads/Attribution-attribution-models-400x211.webp 400w, https://trueprofit.io/wp-content/uploads/Attribution-attribution-models-800x421.webp 800w, https://trueprofit.io/wp-content/uploads/Attribution-attribution-models.webp 900w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
+<p><span data-preserver-spaces="true"><strong>Attribution</strong> is a versatile software that accurately <strong>measures the ROI of your online marketing campaigns</strong>. It tracks and attributes every touchpoint in your customer journey, including web, mobile, social media, email, and more. </span></p>
+<p><span data-preserver-spaces="true">It even tracks offline conversions like phone calls and store visits. With its multi-touch attribution model and real-time data, you can confidently measure the ROI of your campaigns. </span></p>
+<p><span data-preserver-spaces="true">This tool seamlessly integrates with popular marketing tools like Google Analytics, Google Ads, Facebook Ads, Instagram Ads, etc., and captures offline conversions such as phone calls and store visits.</span></p>
+<p><span data-preserver-spaces="true">Attribution suits businesses that want to measure and optimize their online marketing performance and ROI using a comprehensive and flexible tool.</span></p>
+<p><a href="https://getstartedtiktok.pxf.io/XYnvAM" target="_blank" rel="nofollow noopener"><img decoding="async" loading="lazy" class="aligncenter wp-image-3596 size-full" src="http://trueprofit.io/wp-content/uploads/728x90_2.png" alt="" width="728" height="90" srcset="https://trueprofit.io/wp-content/uploads/728x90_2.png 728w, https://trueprofit.io/wp-content/uploads/728x90_2-300x37.png 300w, https://trueprofit.io/wp-content/uploads/728x90_2-400x49.png 400w" sizes="(max-width: 728px) 100vw, 728px" /></a></p>
+<h2 id="ftoc-heading-13" class="ftwp-heading"><strong><span data-preserver-spaces="true">Shopify Attribution Model</span></strong></h2>
+<p><span data-preserver-spaces="true"><strong>Shopify&#8217;s default attribution model is last-click attribution</strong>, which only gives credit to the last channel the customer clicked on before purchasing. </span><span data-preserver-spaces="true">This can be a bit misleading and inaccurate, as it ignores all the other tracks and touchpoints that may have influenced the customer&#8217;s decision.</span></p>
+<p><em><span data-preserver-spaces="true">For example, a customer saw your Facebook ad, clicked on it, browsed your website but didn&#8217;t buy anything. A few days later, <strong>they searched for your brand name on Google, clicked on your website link, and bought a product</strong>. </span></em></p>
+<p><em><span data-preserver-spaces="true"><strong>➡ Shopify would attribute the sale to Google</strong>, even though Facebook may have played a significant role in creating awareness and interest.</span></em></p>
+<p><span data-preserver-spaces="true">So, if you just want a simple &amp; easy-to-use attribution model, using Shopify&#8217;s default attribution model is a good option. However, if you wish for more accurate attribution models, then you may want to consider using a third-party attribution modeling tool. </span></p>
+<p><span data-preserver-spaces="true">An example of such a tool is </span><strong><span data-preserver-spaces="true">TrueProfit</span></strong><span data-preserver-spaces="true">, specifically designed for e-commerce stores. It utilizes advanced analytics and AI to track and enhance marketing performance and profitability. To learn more about TrueProfit, you can refer to the previous section. By utilizing TrueProfit, you can better understand your customer journey and the effectiveness of your marketing efforts.</span></p>
+<h2 id="ftoc-heading-14" class="ftwp-heading"><strong><span data-preserver-spaces="true">How To Build Attribution Models?</span></strong></h2>
+<p><span data-preserver-spaces="true">In general, to build an attribution model, you need to follow these 5 steps:</span></p>
+<h3 id="ftoc-heading-15" class="ftwp-heading"><strong><span data-preserver-spaces="true">Step 1: Collect data from all your data sources</span></strong></h3>
+<p><span data-preserver-spaces="true">The first step is to collect data from all your data sources. These include data from your website, marketing platforms, and CRM system.</span></p>
+<h3 id="ftoc-heading-16" class="ftwp-heading"><strong><span data-preserver-spaces="true">Step 2: Pull all your data together</span></strong></h3>
+<p><span data-preserver-spaces="true">Next, you need to pull all your data together. This means integrating your data from different sources into a unified data source that can provide a holistic view of your customer journey and marketing performance.</span></p>
+<h3 id="ftoc-heading-17" class="ftwp-heading"><strong><span data-preserver-spaces="true">Step 3: Decide on an attribution window</span></strong></h3>
+<p><span data-preserver-spaces="true">An attribution window is the period that you want to consider when assigning credit to each touchpoint. You need to choose an attribution window long enough to capture all the relevant touchpoints in your customer journey. But not too long that it may include irrelevant or outdated touchpoints.</span></p>
+<h3 id="ftoc-heading-18" class="ftwp-heading"><strong><span data-preserver-spaces="true">Step 4: Choose an attribution model</span></strong></h3>
+<p>Depending on what you want to focus on, you can choose from different types of attribution models. For example:</p>
+<ul>
+<li>If you want to see which channel sparked the interest of your customers, you can use a first-touch model.</li>
+<li>If you want to see which channel sealed the deal, you can use a last-touch model.</li>
+<li>If you want to see how all the channels work together along the customer journey, you can use a more complex model like linear, time-decay, or U-shaped.</li>
+</ul>
+<p>These models assign weights to each touchpoint based on recency, frequency, or position. <strong>The best model for you will depend on your specific goals and preferences.</strong></p>
+<h3 id="ftoc-heading-19" class="ftwp-heading"><strong><span data-preserver-spaces="true">Step 5: Evaluate your results</span></strong></h3>
+<p><span data-preserver-spaces="true">Finally, you need to evaluate your results to see if it is accurate. This can be done by comparing your model&#8217;s results to your internal data or industry benchmarks.</span></p>
+<p><span data-preserver-spaces="true">If your model&#8217;s results are inaccurate, you may need to adjust the model or choose a different one. It is important to iterate on your model until you are confident it is accurate.</span></p>
+<h2 id="ftoc-heading-20" class="ftwp-heading"><strong><span data-preserver-spaces="true">Final words</span></strong></h2>
+<p><strong>Attribution models</strong> are powerful tools that can help you optimize your marketing strategy and increase your ROI. By using the right model for your goals, you can gain valuable insights into how your customers interact with your brand and what influences their purchase decisions.</p>
+<p>Now that you know the basics of attribution models, it’s time to put them into practice. Start by analyzing your current data and choosing a model that suits your needs. You can also experiment with different models and compare the results to see what works best for you.</p>
+<p>Remember, <strong>there is no one-size-fits-all solution when it comes to attribution models</strong>. Find the one that matches your business objectives and customer behavior!</p>
+<p style="text-align: right;"><em>Discover what proper profit-tracking looks like at <a href="https://trueprofit.io/?utm_source=trueprofit.io&amp;utm_medium=blog&amp;utm_campaign=hyperlink&amp;utm_content=attribution-models" target="_blank" rel="noopener" data-schema-attribute="">trueprofit.io</a></em></p>
+</div>                    <div id="profile-author" class="author-profile">
+                        <div class="d-flex gap-15">
+                            <p><img src="" class="profile_image" loading="lazy" /></p>
+                            <div class="info">
+                                <p class="author_name">trueprofit</p>
+                                <p class="author-des"></p>
+                            </div>
+                        </div>
+                    </div>
+                                            <div class="related-posts">
+                        <p class="title-related-posts">You might be interested in</p>
+                        <div class="row wrap-articles">
+                                                    <div class="col-lg-4 col-md-4 col-xs-12">
+                                    <img src="https://trueprofit.io/wp-content/uploads/Data-Driven-Attribution.webp" alt="" loading="lazy"/>
+                                    <div class="wrap-content">
+                                                                                    <p><a href="https://trueprofit.io/blog/category/finance/"
+                                                  class="article-category">Finance Fundamentals</a></p>
+                                            <p><a href="https://trueprofit.io/blog/data-driven-attribution/"
+                                                  class="article-title">A Comprehensive Guide to Data Driven Attribution Model [2023]</a></p>
+                                            <p>Learn about data driven attribution, its benefits, how it provides a comprehensive understanding and of marketing campaigns effectiveness. Read now!</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <p class="article-date">Sep 26, 2023</p>
+                                                <p><a class="permalink" href="https://trueprofit.io/blog/data-driven-attribution/"><i
+                                                                class="fa-solid fa-arrow-right-long"></i></a></p>
+                                            </div>
+                                                                                </div>
+                                </div>
+                                                                <div class="col-lg-4 col-md-4 col-xs-12">
+                                    <img src="https://trueprofit.io/wp-content/uploads/Omnichannel-Attribution.webp" alt="" loading="lazy"/>
+                                    <div class="wrap-content">
+                                                                                    <p><a href="https://trueprofit.io/blog/category/finance/"
+                                                  class="article-category">Finance Fundamentals</a></p>
+                                            <p><a href="https://trueprofit.io/blog/omnichannel-attribution/"
+                                                  class="article-title">Omnichannel Attribution vs. Multi-Channel Attribution: A Comparison</a></p>
+                                            <p>What are the differences of Omnichannel attribution vs Multi-channel attribution, and which strategic approach results in higher ROI? Find out now!</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <p class="article-date">Sep 26, 2023</p>
+                                                <p><a class="permalink" href="https://trueprofit.io/blog/omnichannel-attribution/"><i
+                                                                class="fa-solid fa-arrow-right-long"></i></a></p>
+                                            </div>
+                                                                                </div>
+                                </div>
+                                                                <div class="col-lg-4 col-md-4 col-xs-12">
+                                    <img src="https://trueprofit.io/wp-content/uploads/Linear-Attribution.webp" alt="" loading="lazy"/>
+                                    <div class="wrap-content">
+                                                                                    <p><a href="https://trueprofit.io/blog/category/finance/"
+                                                  class="article-category">Finance Fundamentals</a></p>
+                                            <p><a href="https://trueprofit.io/blog/linear-attribution/"
+                                                  class="article-title">Reveal The Secret Of Linear Attribution: A Closer Look [2023]</a></p>
+                                            <p>Explore the world of ad attribution and elevate your marketing success with the power of linear attribution. Unlock valuable insights and practical tips!</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <p class="article-date">Sep 25, 2023</p>
+                                                <p><a class="permalink" href="https://trueprofit.io/blog/linear-attribution/"><i
+                                                                class="fa-solid fa-arrow-right-long"></i></a></p>
+                                            </div>
+                                                                                </div>
+                                </div>
+                                                        </div>
+                        </div>
+                        
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-12 content-sidebar">
+
+                    <div id="sidebar">
+
+<aside id="secondary" class="widget-area" role="complementary">
+	<div id="media_image-2" class="widget widget_media_image"><a href="https://apps.shopify.com/trueprofit?utm_source=trueprofit.io&#038;utm_medium=blog&#038;utm_campaign=banner-cta&#038;utm_content=article"><img width="330" height="600" src="https://trueprofit.io/wp-content/uploads/Frame-1000007250.webp" class="image wp-image-3640  attachment-full size-full" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy" srcset="https://trueprofit.io/wp-content/uploads/Frame-1000007250.webp 330w, https://trueprofit.io/wp-content/uploads/Frame-1000007250-165x300.webp 165w, https://trueprofit.io/wp-content/uploads/Frame-1000007250-220x400.webp 220w" sizes="(max-width: 330px) 100vw, 330px" /></a></div></aside><!-- #secondary -->
+            </div>                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="social-share-right">
+
+            <ul class="list-share"><li><a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Share Facebook" target="_blank" class="fg-tooltip icon-facebook align-items-center  justify-content-end" href="https://www.facebook.com/sharer/sharer.php?u=https://trueprofit.io/blog/what-is-an-attribution-model/"><img src="https://trueprofit.io/wp-content/themes/trueprofit/assets/images/facebook.png" /></a></li><li><a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Share Instagram" target="_blank" class="fg-tooltip icon-linkedin align-items-center justify-content-end"  href="https://www.instagram.com/sharer/sharer.php?u=https://trueprofit.io/blog/what-is-an-attribution-model/"> <img src="https://trueprofit.io/wp-content/themes/trueprofit/assets/images/instagram.png" /></a></li><li><a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Share Twitter" target="_blank" class="fg-tooltip icon-twitter align-items-center justify-content-end" href="https://twitter.com/home?status=https://trueprofit.io/blog/what-is-an-attribution-model/"> <img src="https://trueprofit.io/wp-content/themes/trueprofit/assets/images/twitter.png" /></a></li></ul>        </div>
+
+    </div>
+
+</div><!-- #main -->
+</section><!-- section -->
+
+
+
+<footer id="colophon" class="site-footer footer" role="contentinfo">
+
+    <div class="footer-inner">
+        <div class="container ">
+            <div class="row">
+                
+
+
+			<div class="col-lg-3 col-md-6 col-sm-6 footer-widget" role="complementary">
+			<div id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><img src="https://trueprofit.io/wp-content/uploads/2022/05/Logo-trueprofit-300x75.png" alt=""/>
+<p>
+	Instant focus on what matters: Net profit.
+</p>
+</div></div><div id="custom_html-4" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><p>
+	<a href="https://apps.shopify.com/trueprofit?utm_source=trueprofit.io&utm_medium=home&utm_campaign=footer" target="_blank" rel="noopener"><img class="alignnone size-full wp-image-141" src="https://trueprofit.io/wp-content/uploads/2022/05/shopify.png" alt="" width="40" height="40" /></a> 
+	<a href="https://apps.apple.com/app/trueprofit/id1568063007" target="_blank" rel="noopener"><img class="alignnone size-medium wp-image-143" src="https://trueprofit.io/wp-content/uploads/2022/05/apple.png" alt="" width="40" height="40" /></a> 
+	<a href="https://play.google.com/store/apps/details?id=io.trueprofit" target="_blank" rel="noopener"><img class="alignnone size-medium wp-image-142" src="https://trueprofit.io/wp-content/uploads/2022/05/android.png" alt="" width="40" height="40" /></a>
+</p></div></div>		</div><!-- .widget-area .first -->
+	
+			<div class="col-lg-3 col-md-6 col-sm-6 footer-widget" role="complementary">
+			<div id="nav_menu-2" class="widget widget_nav_menu"><h2 class="widget-title">Features</h2><div class="menu-features-container"><ul id="menu-features" class="menu"><li id="menu-item-2215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2215"><a href="https://trueprofit.io/pnl-dashboard/">Profit Dashboard</a></li>
+<li id="menu-item-2216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2216"><a href="https://trueprofit.io/expense-tracking/">Expense Tracking</a></li>
+<li id="menu-item-4654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4654"><a href="https://trueprofit.io/marketing-attribution/">Marketing Attribution</a></li>
+</ul></div></div>		</div><!-- .widget-area .second -->
+	
+			<div class="col-lg-3 col-md-6 col-sm-6 footer-widget" role="complementary">
+			<div id="nav_menu-6" class="widget widget_nav_menu"><h2 class="widget-title">Comparison</h2><div class="menu-comparison-container"><ul id="menu-comparison" class="menu"><li id="menu-item-4660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4660"><a href="https://trueprofit.io/trueprofit-triplewhale-comparison/">TrueProfit vs. Triple Whale</a></li>
+<li id="menu-item-4662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4662"><a href="https://trueprofit.io/trueprofit-beprofit-comparison/">TrueProfit vs. BeProfit</a></li>
+<li id="menu-item-4661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4661"><a href="https://trueprofit.io/trueprofit-lifetimely-comparison/">TrueProfit vs. Lifetimely</a></li>
+</ul></div></div>		</div><!-- .widget-area .third -->
+	
+			<div class="col-lg-3 col-md-6 col-sm-6 footer-widget" role="complementary">
+			<div id="nav_menu-3" class="widget widget_nav_menu"><h2 class="widget-title">Resources</h2><div class="menu-resources-container"><ul id="menu-resources" class="menu"><li id="menu-item-2217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2217"><a href="https://trueprofit.io/blog/">Blog</a></li>
+<li id="menu-item-3320" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3320"><a href="https://trueprofit.io/blog/category/product-updates/">Product Updates</a></li>
+<li id="menu-item-4674" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4674"><a href="https://help.trueprofit.io/en/">Help Center</a></li>
+<li id="menu-item-4673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4673"><a href="https://trueprofit.io/contact-us/">Contact Us</a></li>
+</ul></div></div>		</div><!-- .widget-area .third -->
+	
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="copyright-text">
+        © 2024 TrueProfit. All rights reserved | 
+<a href="https://trueprofit.io/privacy-policy">Privacy Policy</a> |
+<a href="https://trueprofit.io/terms-of-services">Terms of Service</a>    </div>
+    <a class="btn btn-sm fade-half back-to-top inner-link" href="#top"><i class="fa fa-angle-up"></i></a>
+</footer><!-- #colophon -->
+</div>
+</div><!-- #page -->
+
+		<script>
+			document.addEventListener('DOMContentLoaded', function (event) {
+				for (let i = 0; i < document.forms.length; ++i) {
+					let form = document.forms[i];
+					if (form.method != "get") {  var input8no9rteg = document.createElement("input"); input8no9rteg.setAttribute("type", "hidden"); input8no9rteg.setAttribute("name", "8no9rteg");  input8no9rteg.setAttribute("value", "4bdtu8v8uysh"); form.appendChild(input8no9rteg); }
+if (form.method != "get") {  var inputo5ob4kcw = document.createElement("input"); inputo5ob4kcw.setAttribute("type", "hidden"); inputo5ob4kcw.setAttribute("name", "o5ob4kcw");  inputo5ob4kcw.setAttribute("value", "my5owdkz1f67"); form.appendChild(inputo5ob4kcw); }
+if (form.method != "get") {  var inputlav7dfno = document.createElement("input"); inputlav7dfno.setAttribute("type", "hidden"); inputlav7dfno.setAttribute("name", "lav7dfno");  inputlav7dfno.setAttribute("value", "lfyuyesfx5qc"); form.appendChild(inputlav7dfno); }
+				}
+			});
+		</script>
+		        <!--[if lte IE 9]>
+        <script>
+            'use strict';
+            (function($) {
+                $(document).ready(function() {
+                    $('#ftwp-container').addClass('ftwp-ie9');
+                });
+            })(jQuery);
+        </script>
+        <![endif]-->
+		<script type='text/javascript' src='https://trueprofit.io/wp-content/cache/wpo-minify/1708485366/assets/wpo-minify-footer-9afc0aed.min.js' id='wpo_min-footer-0-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js' id='bootstrap.min.js-js'></script>
+<script type='text/javascript' src='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js' id='slick-js-js'></script>
+<script type='text/javascript' id='wpo_min-footer-3-js-extra'>
+/* <![CDATA[ */
+var trueprofitAdminObject = {"sticky_header":"1"};
+var MyAjax = {"site_url":"https:\/\/trueprofit.io","ajax_url":"https:\/\/trueprofit.io\/wp-admin\/admin-ajax.php"};
+var fixedtocOption = {"showAdminbar":"","inOutEffect":"fade","isNestedList":"1","isColExpList":"1","showColExpIcon":"1","isAccordionList":"","isQuickMin":"1","isEscMin":"1","isEnterMax":"1","fixedMenu":"","scrollOffset":"10","fixedOffsetX":"71","fixedOffsetY":"80","fixedPosition":"top-right","contentsFixedHeight":"750","inPost":"1","contentsFloatInPost":"none","contentsWidthInPost":"1000","contentsHeightInPost":"250","contentsColexpInitMobile":"1","inWidget":"","fixedWidget":"","triggerBorder":"thin","contentsBorder":"medium","triggerSize":"46","isClickableHeader":"1","debug":"1","postContentSelector":"#ftwp-postcontent","mobileMaxWidth":"768","disappearPoint":"content-bottom","smoothScroll":"","scrollDuration":"500","fadeTriggerDuration":"5000","contentsColexpInit":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://trueprofit.io/wp-content/cache/wpo-minify/1708485366/assets/wpo-minify-footer-ef201f96.min.js' id='wpo_min-footer-3-js'></script>
+
+</body>
+</html>
+
+<!-- Cached by WP-Optimize - https://getwpo.com - Last modified: March 17, 2024 5:53 pm (UTC:0) -->
